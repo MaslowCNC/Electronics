@@ -48,7 +48,7 @@
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -475,43 +475,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SmartPrj">
-<packages>
-<package name="CE-COPPER">
-<wire x1="3.81" y1="1.27" x2="3.81" y2="6.35" width="1.4224" layer="1" curve="-180"/>
-<wire x1="0" y1="7.62" x2="8.89" y2="7.62" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="7.62" x2="8.89" y2="0" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="0" x2="0" y2="0" width="0.3048" layer="1"/>
-<wire x1="0" y1="0" x2="0" y2="7.62" width="0.3048" layer="1"/>
-<wire x1="7.62" y1="6.35" x2="5.08" y2="3.81" width="1.4224" layer="1" curve="90"/>
-<wire x1="5.08" y1="3.81" x2="7.62" y2="1.27" width="1.4224" layer="1" curve="90"/>
-<wire x1="5.08" y1="3.81" x2="6.35" y2="3.81" width="1.4224" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CE-MARK">
-<wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="0" size="5.08" layer="94">CE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CE">
-<gates>
-<gate name="G$1" symbol="CE-MARK" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="CE-COPPER">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -535,7 +498,6 @@
 <part name="PWML" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="PWMH" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="U$4" library="SmartPrj" deviceset="CE" device=""/>
 <part name="POWER" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="ADCL" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="COMMUNICATION" library="pinhead" deviceset="PINHD-1X8" device=""/>
@@ -634,7 +596,6 @@
 <instance part="P+4" gate="1" x="11.43" y="22.225" smashed="yes">
 <attribute name="VALUE" x="13.335" y="24.765" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$4" gate="G$1" x="124.46" y="166.37"/>
 <instance part="POWER" gate="A" x="40.005" y="6.985"/>
 <instance part="ADCL" gate="A" x="232.41" y="15.875" smashed="yes" rot="MR180">
 <attribute name="NAME" x="241.935" y="17.78" size="1.778" layer="95" rot="MR180"/>
@@ -647,9 +608,9 @@
 <instance part="+3V3" gate="G$1" x="18.415" y="22.225" smashed="yes">
 <attribute name="VALUE" x="20.955" y="24.765" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ADCH" gate="A" x="233.68" y="-10.795" smashed="yes">
-<attribute name="NAME" x="237.49" y="-10.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="227.33" y="-23.495" size="1.778" layer="96"/>
+<instance part="ADCH" gate="A" x="68.58" y="43.815" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.77" y="43.18" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.93" y="56.515" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="JP1" gate="A" x="239.395" y="130.175"/>
 <instance part="JP2" gate="A" x="42.545" y="66.675"/>
@@ -773,57 +734,57 @@
 </net>
 <net name="ADC9" class="0">
 <segment>
-<wire x1="198.755" y1="-3.175" x2="231.14" y2="-3.175" width="0.1524" layer="91"/>
-<label x="217.805" y="-5.08" size="1.778" layer="95"/>
+<wire x1="103.505" y1="36.195" x2="71.12" y2="36.195" width="0.1524" layer="91"/>
+<label x="84.455" y="38.1" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="ADC8" class="0">
 <segment>
-<wire x1="231.14" y1="-0.635" x2="198.755" y2="-0.635" width="0.1524" layer="91"/>
-<label x="217.805" y="-2.54" size="1.778" layer="95"/>
+<wire x1="71.12" y1="33.655" x2="103.505" y2="33.655" width="0.1524" layer="91"/>
+<label x="84.455" y="35.56" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="ADC10" class="0">
 <segment>
-<wire x1="231.14" y1="-5.715" x2="198.755" y2="-5.715" width="0.1524" layer="91"/>
-<label x="217.805" y="-7.62" size="1.778" layer="95"/>
+<wire x1="71.12" y1="38.735" x2="103.505" y2="38.735" width="0.1524" layer="91"/>
+<label x="84.455" y="40.64" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="ADC11" class="0">
 <segment>
-<wire x1="198.755" y1="-8.255" x2="231.14" y2="-8.255" width="0.1524" layer="91"/>
-<label x="217.805" y="-10.16" size="1.778" layer="95"/>
+<wire x1="103.505" y1="41.275" x2="71.12" y2="41.275" width="0.1524" layer="91"/>
+<label x="84.455" y="43.18" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="ADC12" class="0">
 <segment>
-<wire x1="231.14" y1="-10.795" x2="198.755" y2="-10.795" width="0.1524" layer="91"/>
-<label x="217.805" y="-12.7" size="1.778" layer="95"/>
+<wire x1="71.12" y1="43.815" x2="103.505" y2="43.815" width="0.1524" layer="91"/>
+<label x="84.455" y="45.72" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="ADC13" class="0">
 <segment>
-<wire x1="198.755" y1="-13.335" x2="231.14" y2="-13.335" width="0.1524" layer="91"/>
-<label x="217.805" y="-15.24" size="1.778" layer="95"/>
+<wire x1="103.505" y1="46.355" x2="71.12" y2="46.355" width="0.1524" layer="91"/>
+<label x="84.455" y="48.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="ADCH" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="ADC14" class="0">
 <segment>
-<wire x1="198.755" y1="-15.875" x2="231.14" y2="-15.875" width="0.1524" layer="91"/>
-<label x="226.06" y="-15.875" size="1.778" layer="95" rot="R180"/>
+<wire x1="103.505" y1="48.895" x2="71.12" y2="48.895" width="0.1524" layer="91"/>
+<label x="76.2" y="48.895" size="1.778" layer="95"/>
 <pinref part="ADCH" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="ADC15" class="0">
 <segment>
-<wire x1="231.14" y1="-18.415" x2="198.755" y2="-18.415" width="0.1524" layer="91"/>
-<label x="226.06" y="-18.415" size="1.778" layer="95" rot="R180"/>
+<wire x1="71.12" y1="51.435" x2="103.505" y2="51.435" width="0.1524" layer="91"/>
+<label x="76.2" y="51.435" size="1.778" layer="95"/>
 <pinref part="ADCH" gate="A" pin="8"/>
 </segment>
 </net>
@@ -1189,6 +1150,11 @@
 <wire x1="220.345" y1="109.855" x2="230.505" y2="109.855" width="0.1524" layer="91"/>
 <label x="215.9" y="109.855" size="1.6764" layer="95"/>
 <pinref part="PWMH" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="N$1" class="2">
+<segment>
+<wire x1="29.21" y1="-8.255" x2="19.05" y2="-8.255" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
