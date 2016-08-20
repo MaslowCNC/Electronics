@@ -823,6 +823,13 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <wire x1="162.56" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="81.28" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AREF" class="0">
 <segment>

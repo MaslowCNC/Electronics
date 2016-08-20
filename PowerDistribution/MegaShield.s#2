@@ -1210,17 +1210,24 @@ W = angled&lt;p&gt;
 <wire x1="162.56" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <label x="149.86" y="149.86" size="1.778" layer="95" ratio="7"/>
 </segment>
-<segment>
-<pinref part="X3" gate="G$1" pin="RD-"/>
-<wire x1="162.56" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
-<label x="149.86" y="147.32" size="1.778" layer="95" ratio="7"/>
-</segment>
 </net>
 <net name="12V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="12V"/>
 <wire x1="281.94" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="289.56" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ZPWM" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="RD-"/>
+<wire x1="162.56" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="149.86" y="147.32" size="1.778" layer="95" ratio="7"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="73.66" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<label x="58.42" y="63.5" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 </nets>

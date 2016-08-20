@@ -804,11 +804,6 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <nets>
 <net name="GND" class="2">
 <segment>
-<wire x1="55.245" y1="137.795" x2="39.37" y2="137.795" width="0.1524" layer="91"/>
-<label x="40.005" y="138.43" size="1.778" layer="95"/>
-<pinref part="PWMH" gate="A" pin="7"/>
-</segment>
-<segment>
 <pinref part="X3" gate="G$1" pin="TCT"/>
 <wire x1="162.56" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
 <label x="149.86" y="157.48" size="1.778" layer="95"/>
@@ -823,12 +818,12 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <wire x1="162.56" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="AREF" class="0">
 <segment>
-<wire x1="55.245" y1="140.335" x2="39.37" y2="140.335" width="0.1524" layer="91"/>
-<label x="40.005" y="140.97" size="1.778" layer="95"/>
-<pinref part="PWMH" gate="A" pin="8"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="81.28" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -950,13 +945,6 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <pinref part="X1" gate="G$1" pin="TD-"/>
 <wire x1="162.56" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="149.86" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="81.28" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
