@@ -49,6 +49,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -931,13 +932,54 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="makesmith">
+<packages>
+<package name="TERMINALBLOCK277-1667-ND">
+<wire x1="-5" y1="-4" x2="-5" y2="4" width="0.127" layer="21"/>
+<wire x1="-5" y1="4" x2="5" y2="4" width="0.127" layer="21"/>
+<wire x1="5" y1="4" x2="5" y2="-4" width="0.127" layer="21"/>
+<wire x1="5" y1="-4" x2="-5" y2="-4" width="0.127" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1.3"/>
+<pad name="2" x="2.5" y="0" drill="1.3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TERMINALBLOCK277-1667-ND">
+<wire x1="-5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="-7.62" length="middle" rot="R90"/>
+<pin name="2" x="2.54" y="-7.62" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TERMINALBLOCK277-1667-ND">
+<gates>
+<gate name="G$1" symbol="TERMINALBLOCK277-1667-ND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TERMINALBLOCK277-1667-ND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0">
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="power" width="0.6096" drill="0.7112">
 <clearance class="1" value="0.2032"/>
@@ -962,6 +1004,8 @@ W = angled&lt;p&gt;
 <part name="SV1" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
+<part name="U$1" library="makesmith" deviceset="TERMINALBLOCK277-1667-ND" device=""/>
+<part name="U$2" library="makesmith" deviceset="TERMINALBLOCK277-1667-ND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1038,6 +1082,8 @@ W = angled&lt;p&gt;
 <instance part="SV1" gate="G$1" x="248.92" y="139.7"/>
 <instance part="SV2" gate="G$1" x="248.92" y="124.46"/>
 <instance part="SV3" gate="G$1" x="248.92" y="109.22"/>
+<instance part="U$1" gate="G$1" x="220.98" y="58.42"/>
+<instance part="U$2" gate="G$1" x="241.3" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -1076,6 +1122,16 @@ W = angled&lt;p&gt;
 <pinref part="X3" gate="G$1" pin="RD+"/>
 <wire x1="162.56" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
 <label x="149.86" y="152.4" size="1.778" layer="95" ratio="7"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="50.8" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
+<label x="220.98" y="45.72" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="45.72" x2="243.84" y2="50.8" width="0.1524" layer="91"/>
+<label x="241.3" y="45.72" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -1210,6 +1266,11 @@ W = angled&lt;p&gt;
 <wire x1="162.56" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <label x="149.86" y="149.86" size="1.778" layer="95" ratio="7"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="50.8" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+<label x="215.9" y="45.72" size="1.778" layer="95" rot="R270"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
@@ -1217,12 +1278,22 @@ W = angled&lt;p&gt;
 <wire x1="281.94" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="289.56" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="50.8" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
+<label x="236.22" y="45.72" size="1.778" layer="95" rot="R270"/>
+</segment>
 </net>
 <net name="ZPWM" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="RD-"/>
 <wire x1="162.56" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <label x="149.86" y="147.32" size="1.778" layer="95" ratio="7"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="73.66" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<label x="58.42" y="63.5" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 </nets>

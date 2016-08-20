@@ -1072,6 +1072,11 @@ W = angled&lt;p&gt;
 <wire x1="289.56" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="289.56" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="RD+"/>
+<wire x1="162.56" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
+<label x="149.86" y="152.4" size="1.778" layer="95" ratio="7"/>
+</segment>
 </net>
 <net name="INCA1" class="0">
 <segment>
@@ -1197,9 +1202,13 @@ W = angled&lt;p&gt;
 <net name="SERVO5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5V"/>
-<wire x1="281.94" y1="86.36" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="76.2" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
-<label x="289.56" y="76.2" size="1.778" layer="95"/>
+<wire x1="281.94" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="289.56" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="RCT"/>
+<wire x1="162.56" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
+<label x="149.86" y="149.86" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -1207,6 +1216,13 @@ W = angled&lt;p&gt;
 <pinref part="J1" gate="G$1" pin="12V"/>
 <wire x1="281.94" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="289.56" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ZPWM" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="RD-"/>
+<wire x1="162.56" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="149.86" y="147.32" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 </nets>
