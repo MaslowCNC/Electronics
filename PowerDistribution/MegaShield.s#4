@@ -2347,9 +2347,9 @@ Source: DCJ0202.pdf</description>
 <label x="58.42" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$5"/>
-<wire x1="279.4" y1="-7.62" x2="274.32" y2="-7.62" width="0.1524" layer="91"/>
-<label x="269.24" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U$12" gate="G$1" pin="P$6"/>
+<wire x1="279.4" y1="17.78" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="269.24" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA2" class="0">
@@ -2359,9 +2359,9 @@ Source: DCJ0202.pdf</description>
 <label x="58.42" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$6"/>
-<wire x1="279.4" y1="-5.08" x2="274.32" y2="-5.08" width="0.1524" layer="91"/>
-<label x="269.24" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U$12" gate="G$1" pin="P$5"/>
+<wire x1="279.4" y1="15.24" x2="274.32" y2="15.24" width="0.1524" layer="91"/>
+<label x="269.24" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCB1" class="0">
@@ -2371,9 +2371,9 @@ Source: DCJ0202.pdf</description>
 <label x="58.42" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$5"/>
-<wire x1="279.4" y1="15.24" x2="274.32" y2="15.24" width="0.1524" layer="91"/>
-<label x="269.24" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$6"/>
+<wire x1="279.4" y1="-5.08" x2="274.32" y2="-5.08" width="0.1524" layer="91"/>
+<label x="269.24" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCB2" class="0">
@@ -2383,9 +2383,9 @@ Source: DCJ0202.pdf</description>
 <label x="58.42" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$6"/>
-<wire x1="279.4" y1="17.78" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="269.24" y="17.78" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="279.4" y1="-7.62" x2="274.32" y2="-7.62" width="0.1524" layer="91"/>
+<label x="269.24" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCC1" class="0">
@@ -2492,26 +2492,26 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="IN1" class="0">
 <segment>
-<pinref part="PWMH" gate="A" pin="2"/>
-<wire x1="58.42" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
-<label x="48.26" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="L298" pin="INPUT1"/>
 <wire x1="274.32" y1="109.22" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="264.16" y="109.22" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="IN2" class="0">
 <segment>
 <pinref part="PWMH" gate="A" pin="1"/>
 <wire x1="58.42" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
 <label x="48.26" y="121.92" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="IN2" class="0">
 <segment>
 <pinref part="IC1" gate="L298" pin="INPUT2"/>
 <wire x1="274.32" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
 <label x="264.16" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWMH" gate="A" pin="2"/>
+<wire x1="58.42" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
+<label x="48.26" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENB" class="0">

@@ -2165,8 +2165,6 @@ Source: DCJ0202.pdf</description>
 <part name="U$3" library="MakesmithDiode" deviceset="MRA4004" device=""/>
 <part name="C1" library="eagle-ltspice" deviceset="C" device="" value=".1uF"/>
 <part name="C2" library="eagle-ltspice" deviceset="C" device="" value=".1uF"/>
-<part name="R6" library="eagle-ltspice" deviceset="R" device="" value="47"/>
-<part name="R7" library="eagle-ltspice" deviceset="R" device="" value="47"/>
 <part name="U$4" library="MakesmithDiode" deviceset="MRA4004" device=""/>
 <part name="U$5" library="MakesmithDiode" deviceset="MRA4004" device=""/>
 <part name="U$6" library="MakesmithDiode" deviceset="MRA4004" device=""/>
@@ -2250,8 +2248,6 @@ Source: DCJ0202.pdf</description>
 <instance part="U$3" gate="G$1" x="342.9" y="114.3" rot="R90"/>
 <instance part="C1" gate="G$1" x="271.78" y="129.54" rot="R270"/>
 <instance part="C2" gate="G$1" x="307.34" y="129.54" rot="R90"/>
-<instance part="R6" gate="G$1" x="312.42" y="116.84" rot="R180"/>
-<instance part="R7" gate="G$1" x="312.42" y="114.3" rot="R180"/>
 <instance part="U$4" gate="G$1" x="342.9" y="93.98" rot="R90"/>
 <instance part="U$5" gate="G$1" x="358.14" y="114.3" rot="R90"/>
 <instance part="U$6" gate="G$1" x="358.14" y="93.98" rot="R90"/>
@@ -2297,12 +2293,16 @@ Source: DCJ0202.pdf</description>
 <label x="271.78" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="116.84" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="114.3" x2="320.04" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="114.3" x2="320.04" y2="111.76" width="0.1524" layer="91"/>
 <label x="317.5" y="109.22" size="1.778" layer="95"/>
+<pinref part="IC1" gate="L298" pin="SEN_B"/>
+<wire x1="304.8" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="L298" pin="SEN_A"/>
+<wire x1="304.8" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="114.3" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="116.84" x2="317.5" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A"/>
@@ -2480,14 +2480,14 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="ENA" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="8"/>
-<wire x1="73.66" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<label x="60.96" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="L298" pin="ENABLE_A"/>
 <wire x1="274.32" y1="116.84" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
 <label x="264.16" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="7"/>
+<wire x1="73.66" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<label x="60.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -2516,14 +2516,14 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="ENB" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="7"/>
-<wire x1="73.66" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<label x="60.96" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="L298" pin="ENABLE_B"/>
 <wire x1="274.32" y1="114.3" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
 <label x="264.16" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="8"/>
+<wire x1="73.66" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<label x="60.96" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN3" class="0">
@@ -2635,20 +2635,6 @@ Source: DCJ0202.pdf</description>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
 <wire x1="279.4" y1="5.08" x2="274.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="269.24" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC1" gate="L298" pin="SEN_A"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="IC1" gate="L298" pin="SEN_B"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
