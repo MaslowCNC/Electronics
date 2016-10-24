@@ -2233,7 +2233,6 @@ Source: DCJ0202.pdf</description>
 <text x="72.39" y="20.955" size="1.778" layer="91">43</text>
 <text x="72.39" y="18.415" size="1.778" layer="91">41</text>
 <text x="72.39" y="15.875" size="1.778" layer="91">39</text>
-<text x="58.42" y="-27.94" size="2.54" layer="91">Creative Commons Attribution Share-Alike 2.5</text>
 <text x="284.48" y="-22.86" size="1.778" layer="91">Motor 1</text>
 <text x="284.48" y="0" size="1.778" layer="91">Motor 2</text>
 </plain>

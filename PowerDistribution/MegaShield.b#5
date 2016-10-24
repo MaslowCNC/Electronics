@@ -3121,16 +3121,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="54.0966375" y="45.82193125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="56.267978125" y="38.0443375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="eagle-ltspice" package="R0805" value="47" x="46.06865625" y="39.76466875" smashed="yes">
-<attribute name="SPICEMODEL" value="NONE" x="46.06865625" y="39.76466875" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="46.06865625" y="39.76466875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.871015625" y="41.18519375" size="1.27" layer="27"/>
-</element>
-<element name="R7" library="eagle-ltspice" package="R0805" value="47" x="69.886871875" y="40.35545" smashed="yes" rot="R180">
-<attribute name="SPICEMODEL" value="NONE" x="69.886871875" y="40.35545" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="69.886871875" y="40.35545" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="68.5223875" y="39.357090625" size="1.27" layer="27" rot="R270"/>
-</element>
 <element name="U$4" library="MakesmithDiode" package="SMA" value="MRA4004" x="37.4182875" y="45.036078125" smashed="yes" rot="R90"/>
 <element name="U$5" library="MakesmithDiode" package="SMA" value="MRA4004" x="42.505846875" y="33.259946875" smashed="yes" rot="R90"/>
 <element name="U$6" library="MakesmithDiode" package="SMA" value="MRA4004" x="37.32205" y="33.144571875" smashed="yes" rot="R270"/>
@@ -3156,8 +3146,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="IC1" pad="8"/>
-<contactref element="R6" pad="1"/>
-<contactref element="R7" pad="1"/>
 <contactref element="U$4" pad="A"/>
 <contactref element="U$6" pad="A"/>
 <contactref element="U$8" pad="A"/>
@@ -3196,18 +3184,6 @@ design rules under a new name.</description>
 <via x="83.2244625" y="34.30095" extent="1-16" drill="0.6"/>
 <wire x1="83.2244625" y1="34.30095" x2="83.2244625" y2="35.517509375" width="1.4224" layer="16"/>
 <wire x1="83.2244625" y1="35.517509375" x2="82.900315625" y2="35.84165625" width="1.4224" layer="16"/>
-<wire x1="45.11865625" y1="39.76466875" x2="42.549575" y2="39.76466875" width="1.4224" layer="1"/>
-<wire x1="42.549575" y1="39.76466875" x2="42.530359375" y2="39.745453125" width="1.4224" layer="1"/>
-<via x="42.530359375" y="39.745453125" extent="1-16" drill="0.6"/>
-<wire x1="42.530359375" y1="39.745453125" x2="42.530359375" y2="39.716771875" width="1.4224" layer="16"/>
-<wire x1="42.530359375" y1="39.716771875" x2="41.7708875" y2="38.9573" width="1.4224" layer="16"/>
-<wire x1="70.836871875" y1="40.35545" x2="71.732803125" y2="40.35545" width="1.4224" layer="1"/>
-<wire x1="71.732803125" y1="40.35545" x2="72.532965625" y2="39.5552875" width="1.4224" layer="1"/>
-<wire x1="72.532965625" y1="39.5552875" x2="73.353203125" y2="39.5552875" width="1.4224" layer="1"/>
-<wire x1="73.353203125" y1="39.5552875" x2="73.39226875" y2="39.516221875" width="1.4224" layer="1"/>
-<via x="73.39226875" y="39.516221875" extent="1-16" drill="0.6"/>
-<wire x1="73.39226875" y1="39.516221875" x2="74.056240625" y2="39.516221875" width="1.4224" layer="16"/>
-<wire x1="74.056240625" y1="39.516221875" x2="74.232040625" y2="39.692021875" width="1.4224" layer="16"/>
 <wire x1="27.412221875" y1="37.8833625" x2="22.601790625" y2="37.8833625" width="1.4224" layer="1"/>
 <wire x1="22.601790625" y1="37.8833625" x2="22.56758125" y2="37.917571875" width="1.4224" layer="1"/>
 <via x="22.56758125" y="37.917571875" extent="1-16" drill="0.6"/>
@@ -3226,6 +3202,9 @@ design rules under a new name.</description>
 <wire x1="57.428715625" y1="43.193025" x2="58.247334375" y2="42.37440625" width="0.6096" layer="1"/>
 <wire x1="55.0466375" y1="45.82193125" x2="57.428290625" y2="45.82193125" width="0.6096" layer="1"/>
 <wire x1="57.428290625" y1="45.82193125" x2="57.428715625" y2="45.82150625" width="0.6096" layer="1"/>
+<contactref element="IC1" pad="15"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="67.137334375" y1="37.29440625" x2="67.137334375" y2="38.5559125" width="1.4224" layer="1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="6"/>
@@ -3477,18 +3456,6 @@ design rules under a new name.</description>
 <wire x1="79.303746875" y1="42.676090625" x2="79.4757125" y2="42.84805625" width="1.778" layer="1"/>
 <wire x1="91.054471875" y1="43.725303125" x2="80.352959375" y2="43.725303125" width="1.4224" layer="1"/>
 <wire x1="80.352959375" y1="43.725303125" x2="79.4757125" y2="42.84805625" width="1.4224" layer="1"/>
-</signal>
-<signal name="N$8">
-<contactref element="IC1" pad="1"/>
-<contactref element="R6" pad="2"/>
-<wire x1="47.01865625" y1="39.76466875" x2="47.01865625" y2="39.633084375" width="1.4224" layer="1"/>
-<wire x1="47.01865625" y1="39.633084375" x2="49.357334375" y2="37.29440625" width="1.4224" layer="1"/>
-</signal>
-<signal name="N$9">
-<contactref element="IC1" pad="15"/>
-<contactref element="R7" pad="2"/>
-<wire x1="67.137334375" y1="37.29440625" x2="67.137334375" y2="38.5559125" width="1.4224" layer="1"/>
-<wire x1="67.137334375" y1="38.5559125" x2="68.936871875" y2="40.35545" width="1.4224" layer="1"/>
 </signal>
 </signals>
 <errors>
