@@ -2,6 +2,10 @@ Maslow PCBs
 ======================
 
 
-Current Layout
+Layout
 
 ![Layout](/PowerDistributionBoardLayout.JPG)
+
+Schematic
+
+![Schematic](/PowerDistributionBoardSchematic.JPG)
