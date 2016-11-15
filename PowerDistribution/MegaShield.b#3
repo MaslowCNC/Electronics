@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5106,13 +5106,12 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="58.247334375" y="44.91440625" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1589425" x="58.247334375" y="44.91440625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="L298N" x="58.247334375" y="44.91440625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.357334375" y="32.21440625" size="1.27" layer="25"/>
 </element>
 <element name="U$3" library="MakesmithDiode" package="SMA" value="MRA4004" x="42.91334375" y="44.929640625" smashed="yes" rot="R270"/>
 <element name="C1" library="eagle-ltspice" package="C0805" value=".1uF" x="58.378715625" y="45.82150625" smashed="yes" rot="R180">
 <attribute name="SPICEMODEL" value="NONE" x="58.378715625" y="45.82150625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="58.378715625" y="45.82150625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="60.625734375" y="46.3564875" size="1.27" layer="27"/>
+<attribute name="VALUE" x="54.504334375" y="47.2200875" size="1.27" layer="27"/>
 </element>
 <element name="C2" library="eagle-ltspice" package="C0805" value=".1uF" x="54.0966375" y="45.82193125" smashed="yes">
 <attribute name="SPICEMODEL" value="NONE" x="54.0966375" y="45.82193125" size="1.778" layer="27" display="off"/>
@@ -5150,11 +5149,11 @@ design rules under a new name.</description>
 <contactref element="U$10" pad="A"/>
 <contactref element="J1" pad="3"/>
 <polygon width="0.6096" layer="16">
-<vertex x="20.369690625" y="49.38420625"/>
+<vertex x="-1.880709375" y="50.24780625"/>
 <vertex x="99.695" y="49.53"/>
-<vertex x="99.964078125" y="10.108009375"/>
-<vertex x="79.71048125" y="18.13181875"/>
-<vertex x="19.562509375" y="21.19441875"/>
+<vertex x="99.760878125" y="-0.407590625"/>
+<vertex x="54.41208125" y="0.09781875"/>
+<vertex x="-2.129090625" y="-2.14818125"/>
 </polygon>
 <contactref element="U$1" pad="P$4"/>
 <contactref element="U$12" pad="P$4"/>
@@ -5291,16 +5290,15 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="C"/>
 <contactref element="U$7" pad="C"/>
 <contactref element="U$9" pad="C"/>
-<contactref element="J1" pad="2"/>
 <polygon width="0.6096" layer="1">
 <vertex x="20.313809375" y="49.436871875"/>
 <vertex x="100.33" y="49.53"/>
-<vertex x="99.909603125" y="9.9564"/>
-<vertex x="78.450078125" y="18.1313625"/>
-<vertex x="19.607521875" y="21.191784375"/>
+<vertex x="100.290603125" y="17"/>
+<vertex x="19.607521875" y="17"/>
 </polygon>
 <wire x1="53.1466375" y1="45.82193125" x2="53.1466375" y2="42.395103125" width="1.4224" layer="1"/>
 <wire x1="53.1466375" y1="42.395103125" x2="53.167334375" y2="42.37440625" width="1.4224" layer="1"/>
+<contactref element="J1" pad="1"/>
 </signal>
 <signal name="ZPWM">
 <contactref element="PWML" pad="5"/>
