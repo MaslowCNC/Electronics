@@ -4535,10 +4535,10 @@
 <rectangle x1="67.2211" y1="16.2179" x2="68.8213" y2="16.2433" layer="201"/>
 <rectangle x1="67.3989" y1="16.2433" x2="68.6689" y2="16.2687" layer="201"/>
 <rectangle x1="67.6021" y1="16.2687" x2="68.4403" y2="16.2941" layer="201"/>
-<text x="29.822196875" y="24.623884375" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
-<text x="34.51665" y="25.027446875" size="1.778" layer="21" ratio="15" rot="R90">AUX3</text>
-<text x="42.759159375" y="26.5814375" size="1.778" layer="21" ratio="15" rot="R180">AUX2</text>
-<text x="46.67443125" y="24.28945" size="1.778" layer="21" ratio="15" rot="R90">AUX1</text>
+<text x="26.76346875" y="13.453846875" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
+<text x="30.370375" y="13.448746875" size="1.778" layer="21" ratio="15" rot="R90">AUX3</text>
+<text x="31.791546875" y="19.75641875" size="1.778" layer="21" ratio="15" rot="R270">AUX2</text>
+<text x="36.8865" y="13.18751875" size="1.778" layer="21" ratio="15" rot="R90">AUX1</text>
 </plain>
 <libraries>
 <library name="pinhead">

@@ -2228,6 +2228,7 @@ Source: DCJ0202.pdf</description>
 <text x="185.42" y="116.84" size="6.4516" layer="91">H-Bridge</text>
 <text x="182.88" y="172.72" size="6.4516" layer="91">Power LED</text>
 <text x="83.82" y="73.66" size="6.4516" layer="91">Power Jack</text>
+<text x="63.5" y="180.34" size="6.4516" layer="91">Arduino IO</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="71.12" smashed="yes" rot="MR180">

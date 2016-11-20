@@ -3051,6 +3051,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="99.06" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <label x="114.3" y="170.18" size="1.778" layer="95"/>
+<junction x="106.68" y="170.18"/>
 </segment>
 <segment>
 <pinref part="USB" gate="G$1" pin="C"/>
@@ -3085,6 +3086,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="187.96" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="91.44" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<junction x="190.5" y="93.98"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A"/>
@@ -3215,6 +3217,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="73.66" y1="144.78" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="78.74" y="152.4" size="1.778" layer="95"/>
+<junction x="73.66" y="152.4"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -3227,6 +3230,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="157.48" y1="99.06" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="106.68" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="154.94" y="111.76" size="1.778" layer="95"/>
+<junction x="157.48" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$3"/>
@@ -3266,6 +3270,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="187.96" y1="99.06" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+<junction x="187.96" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C"/>
@@ -3392,6 +3397,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="226.06" y1="83.82" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="218.44" y="83.82" size="1.778" layer="95"/>
+<junction x="226.06" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
@@ -3412,6 +3418,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="241.3" y1="83.82" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="233.68" y="83.82" size="1.778" layer="95"/>
+<junction x="241.3" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
@@ -3432,6 +3439,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="254" y1="83.82" x2="254" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="254" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="246.38" y="83.82" size="1.778" layer="95"/>
+<junction x="254" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$2"/>
@@ -3452,6 +3460,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="83.82" x2="266.7" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 <label x="259.08" y="83.82" size="1.778" layer="95"/>
+<junction x="266.7" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
@@ -3510,6 +3519,20 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,157.48,99.06,IC1,VCC,5V,,,"/>
+<approved hash="104,1,187.96,99.06,IC1,VS,12V,,,"/>
+<approved hash="113,1,58.6994,69.85,PWML,,,,,"/>
+<approved hash="113,1,58.6571,129.409,PWMH,,,,,"/>
+<approved hash="113,1,58.6994,97.79,COMMUNICATION,,,,,"/>
+<approved hash="113,1,62.1877,162.691,JP1,,,,,"/>
+<approved hash="113,1,102.828,160.151,JP2,,,,,"/>
+<approved hash="113,1,190.822,143.51,USB,,,,,"/>
+<approved hash="113,1,258.403,156.405,J2,,,,,"/>
+<approved hash="113,1,258.403,138.625,J3,,,,,"/>
+<approved hash="113,1,281.263,138.625,J4,,,,,"/>
+<approved hash="113,1,281.263,156.405,J5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
