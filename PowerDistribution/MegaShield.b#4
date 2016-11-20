@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4535,6 +4535,11 @@
 <rectangle x1="67.2211" y1="16.2179" x2="68.8213" y2="16.2433" layer="201"/>
 <rectangle x1="67.3989" y1="16.2433" x2="68.6689" y2="16.2687" layer="201"/>
 <rectangle x1="67.6021" y1="16.2687" x2="68.4403" y2="16.2941" layer="201"/>
+<text x="27.25428125" y="22.6555625" size="1.778" layer="1" rot="R90">AUX 4</text>
+<text x="29.539071875" y="25.191025" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
+<text x="34.51665" y="25.027446875" size="1.778" layer="21" ratio="15" rot="R90">AUX3</text>
+<text x="42.759159375" y="26.5814375" size="1.778" layer="21" ratio="15" rot="R180">AUX2</text>
+<text x="46.67443125" y="24.28945" size="1.778" layer="21" ratio="15" rot="R90">AUX1</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -5207,17 +5212,17 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="29.662221875" y="46.2833625" rot="R270"/>
 <element name="U$12" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="93.304471875" y="46.125303125" rot="R270"/>
-<element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="44" y="18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="47.175" y="16.73" size="1.27" layer="27" rot="R90"/>
+<element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="44" y="23" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.825" y="24.27" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="34" y="18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="37.175" y="16.73" size="1.27" layer="27" rot="R90"/>
+<element name="J3" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="34" y="23" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.825" y="24.27" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="39" y="18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="42.175" y="16.73" size="1.27" layer="27" rot="R90"/>
+<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="29" y="23" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.825" y="24.27" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="29" y="18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="32.175" y="16.73" size="1.27" layer="27" rot="R90"/>
+<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="39" y="23" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.825" y="24.27" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -5285,10 +5290,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="1"/>
 <contactref element="J5" pad="1"/>
 <contactref element="J2" pad="1"/>
-<wire x1="38.873" y1="18" x2="43.873" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="33.873" y1="18" x2="38.873" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="28.873" y1="18" x2="33.873" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="38.816446875" y1="28.219221875" x2="38.873" y2="18" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
@@ -5348,7 +5349,8 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="U$1" pad="P$3"/>
 <contactref element="U$12" pad="P$3"/>
-<wire x1="11.777771875" y1="33.17135625" x2="11.777771875" y2="4.49278125" width="0.8128" layer="1"/>
+<wire x1="11.777771875" y1="33.17135625" x2="11.777771875" y2="18" width="0.8128" layer="1"/>
+<wire x1="11.777771875" y1="18" x2="11.777771875" y2="4.49278125" width="0.8128" layer="1"/>
 <wire x1="11.777771875" y1="4.49278125" x2="9.669328125" y2="2.3843375" width="0.8128" layer="1"/>
 <wire x1="9.669328125" y1="2.3843375" x2="8.4106625" y2="2.3843375" width="0.8128" layer="1"/>
 <wire x1="8.4106625" y1="2.3843375" x2="8.255" y2="2.54" width="0.8128" layer="1"/>
@@ -5378,10 +5380,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="2"/>
 <contactref element="J4" pad="2"/>
 <contactref element="J5" pad="2"/>
-<wire x1="39.127" y1="20.54" x2="44.127" y2="20.54" width="0" layer="19" extent="1-1"/>
-<wire x1="34.127" y1="20.54" x2="39.127" y2="20.54" width="0" layer="19" extent="1-1"/>
-<wire x1="29.127" y1="20.54" x2="34.127" y2="20.54" width="0" layer="19" extent="1-1"/>
-<wire x1="27.243921875" y1="39.7150625" x2="29.127" y2="20.54" width="0" layer="19" extent="1-1"/>
+<wire x1="28.873" y1="20.46" x2="33.873" y2="20.46" width="1.016" layer="1"/>
+<wire x1="33.873" y1="20.46" x2="38.873" y2="20.46" width="1.016" layer="1"/>
+<wire x1="38.873" y1="20.46" x2="43.873" y2="20.46" width="1.016" layer="1"/>
+<wire x1="28.873" y1="20.46" x2="28.333" y2="21" width="1.016" layer="16"/>
+<wire x1="28.333" y1="21" x2="15" y2="21" width="1.016" layer="16"/>
+<via x="15" y="21" extent="1-16" drill="0.6"/>
+<wire x1="15" y1="21" x2="12" y2="18" width="0.8128" layer="1"/>
+<wire x1="12" y1="18" x2="11.777771875" y2="18" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1">
 </signal>
@@ -5553,15 +5559,27 @@ design rules under a new name.</description>
 </signal>
 <signal name="AUX3">
 <contactref element="J3" pad="3"/>
+<contactref element="COMMUNICATION" pad="6"/>
+<wire x1="34.127" y1="17.92" x2="28.575" y2="12.368" width="1.016" layer="1"/>
+<wire x1="28.575" y1="12.368" x2="28.575" y2="2.54" width="1.016" layer="1"/>
 </signal>
 <signal name="AUX1">
 <contactref element="J2" pad="3"/>
+<contactref element="COMMUNICATION" pad="8"/>
+<wire x1="44.127" y1="17.92" x2="33.655" y2="7.448" width="1.016" layer="1"/>
+<wire x1="33.655" y1="7.448" x2="33.655" y2="2.54" width="1.016" layer="1"/>
 </signal>
 <signal name="AUX2">
 <contactref element="J5" pad="3"/>
+<contactref element="COMMUNICATION" pad="7"/>
+<wire x1="39.127" y1="17.92" x2="31.115" y2="9.908" width="1.016" layer="1"/>
+<wire x1="31.115" y1="9.908" x2="31.115" y2="2.54" width="1.016" layer="1"/>
 </signal>
 <signal name="AUX4">
 <contactref element="J4" pad="3"/>
+<contactref element="COMMUNICATION" pad="5"/>
+<wire x1="29.127" y1="17.92" x2="26.035" y2="14.828" width="1.016" layer="1"/>
+<wire x1="26.035" y1="14.828" x2="26.035" y2="2.54" width="1.016" layer="1"/>
 </signal>
 </signals>
 <errors>
