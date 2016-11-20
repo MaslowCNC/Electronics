@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5149,11 +5149,11 @@ design rules under a new name.</description>
 <contactref element="U$10" pad="A"/>
 <contactref element="J1" pad="3"/>
 <polygon width="0.6096" layer="16">
-<vertex x="20.369690625" y="49.38420625"/>
+<vertex x="-1.880709375" y="50.24780625"/>
 <vertex x="99.695" y="49.53"/>
-<vertex x="99.964078125" y="10.108009375"/>
-<vertex x="79.71048125" y="18.13181875"/>
-<vertex x="19.562509375" y="21.19441875"/>
+<vertex x="99.760878125" y="-0.407590625"/>
+<vertex x="54.41208125" y="0.09781875"/>
+<vertex x="-2.129090625" y="-2.14818125"/>
 </polygon>
 <contactref element="U$1" pad="P$4"/>
 <contactref element="U$12" pad="P$4"/>
@@ -5290,16 +5290,15 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="C"/>
 <contactref element="U$7" pad="C"/>
 <contactref element="U$9" pad="C"/>
-<contactref element="J1" pad="2"/>
 <polygon width="0.6096" layer="1">
 <vertex x="20.313809375" y="49.436871875"/>
 <vertex x="100.33" y="49.53"/>
-<vertex x="99.909603125" y="9.9564"/>
-<vertex x="78.450078125" y="18.1313625"/>
-<vertex x="19.607521875" y="21.191784375"/>
+<vertex x="100.290603125" y="17"/>
+<vertex x="19.607521875" y="17"/>
 </polygon>
 <wire x1="53.1466375" y1="45.82193125" x2="53.1466375" y2="42.395103125" width="1.4224" layer="1"/>
 <wire x1="53.1466375" y1="42.395103125" x2="53.167334375" y2="42.37440625" width="1.4224" layer="1"/>
+<contactref element="J1" pad="1"/>
 </signal>
 <signal name="ZPWM">
 <contactref element="PWML" pad="5"/>
