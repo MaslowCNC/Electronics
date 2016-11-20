@@ -1909,6 +1909,67 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="8.636" y1="-6.096" x2="9.144" y2="-3.302" layer="51"/>
 <rectangle x1="-9.475" y1="0.175" x2="9.475" y2="1.85" layer="21"/>
 </package>
+<package name="POWERSO-20">
+<description>&lt;b&gt;Power Small Outline&lt;/b&gt;</description>
+<wire x1="7.86" y1="-5.6" x2="-6.56" y2="-5.6" width="0.2032" layer="51"/>
+<wire x1="-6.56" y1="-5.6" x2="-7.86" y2="-4.3" width="0.2032" layer="21"/>
+<wire x1="-7.86" y1="-4.3" x2="-7.86" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-7.86" y1="-1.3" x2="-7.2" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-7.2" y1="-1.3" x2="-7.2" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-7.2" y1="1.4" x2="-7.86" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-7.86" y1="1.4" x2="-7.86" y2="5.6" width="0.2032" layer="21"/>
+<wire x1="-7.86" y1="5.6" x2="7.86" y2="5.6" width="0.2032" layer="51"/>
+<wire x1="7.86" y1="5.6" x2="7.86" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="7.86" y1="-1.4" x2="7.86" y2="-5.6" width="0.2032" layer="21"/>
+<wire x1="7.86" y1="1.3" x2="7.2" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="7.2" y1="1.3" x2="7.2" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="7.2" y1="-1.4" x2="7.86" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-7.8" y1="5.6" x2="-6.3" y2="5.6" width="0.2032" layer="21"/>
+<wire x1="7.8" y1="-5.6" x2="6.3" y2="-5.6" width="0.2032" layer="21"/>
+<wire x1="7.8" y1="5.6" x2="6.3" y2="5.6" width="0.2032" layer="21"/>
+<smd name="2" x="-4.445" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="3.175" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-5.715" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-3.175" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-1.905" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="1.905" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="4.445" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="5.715" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.445" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-0.635" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="1.905" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="5.715" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="3.175" y="-6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="0.635" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-0.635" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="-1.905" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="-3.175" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="-4.445" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="-5.715" y="6.5" dx="0.6" dy="2.2" layer="1"/>
+<text x="-5.715" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.9601" y1="-7.22" x2="-5.4699" y2="-5.7001" layer="51"/>
+<rectangle x1="-4.6901" y1="-7.22" x2="-4.1999" y2="-5.7001" layer="51"/>
+<rectangle x1="-3.4201" y1="-7.22" x2="-2.9299" y2="-5.7001" layer="51"/>
+<rectangle x1="-2.1501" y1="-7.22" x2="-1.6599" y2="-5.7001" layer="51"/>
+<rectangle x1="-0.8801" y1="-7.22" x2="-0.3899" y2="-5.7001" layer="51"/>
+<rectangle x1="0.3899" y1="-7.22" x2="0.8801" y2="-5.7001" layer="51"/>
+<rectangle x1="1.6599" y1="-7.22" x2="2.1501" y2="-5.7001" layer="51"/>
+<rectangle x1="2.9299" y1="-7.22" x2="3.4201" y2="-5.7001" layer="51"/>
+<rectangle x1="4.1999" y1="-7.22" x2="4.6901" y2="-5.7001" layer="51"/>
+<rectangle x1="5.4699" y1="-7.22" x2="5.9601" y2="-5.7001" layer="51"/>
+<rectangle x1="5.4699" y1="5.7001" x2="5.9601" y2="7.22" layer="51"/>
+<rectangle x1="4.1999" y1="5.7001" x2="4.6901" y2="7.22" layer="51"/>
+<rectangle x1="2.9299" y1="5.7001" x2="3.4201" y2="7.22" layer="51"/>
+<rectangle x1="1.6599" y1="5.7001" x2="2.1501" y2="7.22" layer="51"/>
+<rectangle x1="0.3899" y1="5.7001" x2="0.8801" y2="7.22" layer="51"/>
+<rectangle x1="-0.8801" y1="5.7001" x2="-0.3899" y2="7.22" layer="51"/>
+<rectangle x1="-2.1501" y1="5.7001" x2="-1.6599" y2="7.22" layer="51"/>
+<rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
+<rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
+<rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L298">
@@ -1967,6 +2028,28 @@ http://www.st.com&lt;p&gt;
 <attribute name="OC_FARNELL" value="1589425" constant="no"/>
 <attribute name="OC_NEWARK" value="32M1527" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SO" package="POWERSO-20">
+<connects>
+<connect gate="L298" pin="ENABLE_A" pad="8"/>
+<connect gate="L298" pin="ENABLE_B" pad="14"/>
+<connect gate="L298" pin="GND" pad="1"/>
+<connect gate="L298" pin="INPUT1" pad="7"/>
+<connect gate="L298" pin="INPUT2" pad="9"/>
+<connect gate="L298" pin="INPUT3" pad="13"/>
+<connect gate="L298" pin="INPUT4" pad="15"/>
+<connect gate="L298" pin="OUT1" pad="4"/>
+<connect gate="L298" pin="OUT2" pad="5"/>
+<connect gate="L298" pin="OUT3" pad="16"/>
+<connect gate="L298" pin="OUT4" pad="17"/>
+<connect gate="L298" pin="SEN_A" pad="2"/>
+<connect gate="L298" pin="SEN_B" pad="19"/>
+<connect gate="L298" pin="VCC" pad="12"/>
+<connect gate="L298" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2848,7 +2931,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP2" library="pinhead" deviceset="PINHD-2X8" device=""/>
 <part name="USB" library="eagle-ltspice" deviceset="LED_E" device=""/>
 <part name="R4" library="eagle-ltspice" deviceset="R" device="" value="270"/>
-<part name="IC1" library="st-microelectronics" deviceset="L298" device=""/>
+<part name="IC1" library="st-microelectronics" deviceset="L298" device="SO" value="L298SO"/>
 <part name="U$3" library="MakesmithDiode" deviceset="MRA4004" device=""/>
 <part name="C1" library="eagle-ltspice" deviceset="C" device="" value=".1uF"/>
 <part name="C2" library="eagle-ltspice" deviceset="C" device="" value=".1uF"/>
@@ -2922,6 +3005,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="182.88" y="172.72" size="6.4516" layer="91">Power LED</text>
 <text x="83.82" y="73.66" size="6.4516" layer="91">Power Jack</text>
 <text x="63.5" y="180.34" size="6.4516" layer="91">Arduino IO</text>
+<text x="248.92" y="165.1" size="6.4516" layer="91">AUX Ports</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="71.12" smashed="yes" rot="MR180">
@@ -2967,6 +3051,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="99.06" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <label x="114.3" y="170.18" size="1.778" layer="95"/>
+<junction x="106.68" y="170.18"/>
 </segment>
 <segment>
 <pinref part="USB" gate="G$1" pin="C"/>
@@ -3001,6 +3086,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="187.96" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="91.44" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<junction x="190.5" y="93.98"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A"/>
@@ -3084,26 +3170,26 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="INCB1" class="0">
 <segment>
-<pinref part="COMMUNICATION" gate="A" pin="4"/>
-<wire x1="58.42" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="43.18" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P$6"/>
 <wire x1="96.52" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
 <label x="86.36" y="111.76" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="INCB2" class="0">
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="3"/>
 <wire x1="58.42" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <label x="43.18" y="93.98" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="INCB2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$5"/>
 <wire x1="96.52" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="COMMUNICATION" gate="A" pin="4"/>
+<wire x1="58.42" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="43.18" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCC1" class="0">
@@ -3131,6 +3217,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="73.66" y1="144.78" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="78.74" y="152.4" size="1.778" layer="95"/>
+<junction x="73.66" y="152.4"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -3143,6 +3230,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="157.48" y1="99.06" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="106.68" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="154.94" y="111.76" size="1.778" layer="95"/>
+<junction x="157.48" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$3"/>
@@ -3182,6 +3270,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="187.96" y1="99.06" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+<junction x="187.96" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C"/>
@@ -3308,6 +3397,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="226.06" y1="83.82" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="218.44" y="83.82" size="1.778" layer="95"/>
+<junction x="226.06" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
@@ -3328,6 +3418,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="241.3" y1="83.82" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="233.68" y="83.82" size="1.778" layer="95"/>
+<junction x="241.3" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
@@ -3348,6 +3439,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="254" y1="83.82" x2="254" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="254" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="246.38" y="83.82" size="1.778" layer="95"/>
+<junction x="254" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$2"/>
@@ -3368,6 +3460,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="83.82" x2="266.7" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 <label x="259.08" y="83.82" size="1.778" layer="95"/>
+<junction x="266.7" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
@@ -3426,6 +3519,20 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,157.48,99.06,IC1,VCC,5V,,,"/>
+<approved hash="104,1,187.96,99.06,IC1,VS,12V,,,"/>
+<approved hash="113,1,58.6994,69.85,PWML,,,,,"/>
+<approved hash="113,1,58.6571,129.409,PWMH,,,,,"/>
+<approved hash="113,1,58.6994,97.79,COMMUNICATION,,,,,"/>
+<approved hash="113,1,62.1877,162.691,JP1,,,,,"/>
+<approved hash="113,1,102.828,160.151,JP2,,,,,"/>
+<approved hash="113,1,190.822,143.51,USB,,,,,"/>
+<approved hash="113,1,258.403,156.405,J2,,,,,"/>
+<approved hash="113,1,258.403,138.625,J3,,,,,"/>
+<approved hash="113,1,281.263,138.625,J4,,,,,"/>
+<approved hash="113,1,281.263,156.405,J5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
