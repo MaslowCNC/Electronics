@@ -3302,14 +3302,14 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="ENA" class="0">
 <segment>
+<pinref part="IC1" gate="L298" pin="ENABLE_A"/>
+<wire x1="157.48" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<label x="147.32" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="PWML" gate="A" pin="7"/>
 <wire x1="58.42" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <label x="45.72" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="L298" pin="ENABLE_B"/>
-<wire x1="157.48" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
-<label x="147.32" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -3338,14 +3338,14 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="ENB" class="0">
 <segment>
+<pinref part="IC1" gate="L298" pin="ENABLE_B"/>
+<wire x1="157.48" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<label x="147.32" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="PWML" gate="A" pin="8"/>
 <wire x1="58.42" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="45.72" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="L298" pin="ENABLE_A"/>
-<wire x1="157.48" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
-<label x="147.32" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN3" class="0">

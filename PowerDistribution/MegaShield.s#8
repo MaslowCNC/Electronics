@@ -2464,9 +2464,9 @@ Source: DCJ0202.pdf</description>
 <label x="381" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
-<label x="309.88" y="60.96" size="1.778" layer="95"/>
+<label x="309.88" y="63.5" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ZPWM" class="0">
