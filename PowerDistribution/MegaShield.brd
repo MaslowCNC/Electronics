@@ -4535,10 +4535,12 @@
 <rectangle x1="67.2211" y1="16.2179" x2="68.8213" y2="16.2433" layer="201"/>
 <rectangle x1="67.3989" y1="16.2433" x2="68.6689" y2="16.2687" layer="201"/>
 <rectangle x1="67.6021" y1="16.2687" x2="68.4403" y2="16.2941" layer="201"/>
-<text x="26.76346875" y="13.453846875" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
-<text x="30.370375" y="13.448746875" size="1.778" layer="21" ratio="15" rot="R90">AUX3</text>
-<text x="31.791546875" y="19.75641875" size="1.778" layer="21" ratio="15" rot="R270">AUX2</text>
-<text x="36.8865" y="13.18751875" size="1.778" layer="21" ratio="15" rot="R90">AUX1</text>
+<text x="26.76346875" y="13.453846875" size="1.778" layer="21" ratio="15" rot="R90">AUX1</text>
+<text x="30.370375" y="13.448746875" size="1.778" layer="21" ratio="15" rot="R90">AUX2</text>
+<text x="31.791546875" y="19.75641875" size="1.778" layer="21" ratio="15" rot="R270">AUX3</text>
+<text x="36.8865" y="13.18751875" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
+<text x="42.3922125" y="13.5276875" size="1.778" layer="21" ratio="15" rot="R90">AUX6</text>
+<text x="39.7413125" y="13.3235875" size="1.778" layer="21" ratio="15" rot="R90">AUX5</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -5229,17 +5231,17 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="15.301575" y="43.430884375" rot="R270"/>
 <element name="U$12" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="53.988675" y="41.09395625" rot="R270"/>
-<element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="36.249703125" y="11.3093375" smashed="yes" rot="R270">
-<attribute name="VALUE" x="33.074703125" y="12.5793375" size="1.27" layer="27" rot="R270"/>
+<element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="35.73851875" y="11.427378125" smashed="yes" rot="R270">
+<attribute name="VALUE" x="32.56351875" y="12.697378125" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="29.67615" y="11.3093375" smashed="yes" rot="R270">
-<attribute name="VALUE" x="26.50115" y="12.5793375" size="1.27" layer="27" rot="R270"/>
+<element name="J3" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="29.086321875" y="11.2699875" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.911321875" y="12.5399875" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="26.30779375" y="11.391090625" smashed="yes" rot="R270">
-<attribute name="VALUE" x="23.13279375" y="12.661090625" size="1.27" layer="27" rot="R270"/>
+<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="25.560678125" y="11.391090625" smashed="yes" rot="R270">
+<attribute name="VALUE" x="22.385678125" y="12.661090625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="32.88134375" y="11.391090625" smashed="yes" rot="R270">
-<attribute name="VALUE" x="29.70634375" y="12.661090625" size="1.27" layer="27" rot="R270"/>
+<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="32.448803125" y="11.273046875" smashed="yes" rot="R270">
+<attribute name="VALUE" x="29.273803125" y="12.543046875" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IC2" library="st-microelectronics" package="POWERSO-20" value="L298SO" x="77.618046875" y="34.8705125" smashed="yes" rot="R270"/>
 <element name="U$2" library="MakesmithDiode" package="SMA" value="MRA4004" x="67.564175" y="40.867378125" smashed="yes" rot="R270"/>
@@ -5261,6 +5263,12 @@ design rules under a new name.</description>
 <element name="U$18" library="MakesmithDiode" package="SMA" value="MRA4004" x="88.589240625" y="43.0003125" smashed="yes" rot="R90"/>
 <element name="U$19" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="95.871675" y="41.675140625" rot="R270"/>
 <element name="U$20" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="58.7248875" y="41.3844875" rot="R270"/>
+<element name="J6" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="38.9129625" y="11.416446875" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.7379625" y="12.686446875" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="J7" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="41.962453125" y="11.40024375" smashed="yes" rot="R270">
+<attribute name="VALUE" x="38.787453125" y="12.67024375" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -5424,6 +5432,8 @@ design rules under a new name.</description>
 <wire x1="85.910071875" y1="39.439965625" x2="86.159378125" y2="39.689271875" width="0.6096" layer="1"/>
 <wire x1="86.159378125" y1="39.689271875" x2="86.159378125" y2="41.656271875" width="0.6096" layer="1"/>
 <wire x1="86.159378125" y1="41.656271875" x2="85.164246875" y2="42.651403125" width="0.6096" layer="1"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J7" pad="1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
@@ -5519,9 +5529,9 @@ design rules under a new name.</description>
 <wire x1="86.523253125" y1="48.772025" x2="63.023809375" y2="48.772025" width="0.8128" layer="16"/>
 <wire x1="63.023809375" y1="48.772025" x2="41.18968125" y2="48.772025" width="0.8128" layer="16"/>
 <wire x1="41.18968125" y1="48.772025" x2="19.19906875" y2="48.772025" width="0.8128" layer="16"/>
-<wire x1="26.18079375" y1="8.851090625" x2="29.54915" y2="8.7693375" width="1.016" layer="1"/>
-<wire x1="29.54915" y1="8.7693375" x2="32.75434375" y2="8.851090625" width="1.016" layer="1"/>
-<wire x1="32.75434375" y1="8.851090625" x2="36.122703125" y2="8.7693375" width="1.016" layer="1"/>
+<wire x1="25.433678125" y1="8.851090625" x2="28.959321875" y2="8.7299875" width="1.016" layer="1"/>
+<wire x1="28.959321875" y1="8.7299875" x2="32.321803125" y2="8.733046875" width="1.016" layer="1"/>
+<wire x1="32.321803125" y1="8.733046875" x2="35.61151875" y2="8.887378125" width="1.016" layer="1"/>
 <wire x1="11.777771875" y1="4.49278125" x2="15.963628125" y2="8.6786375" width="0.8128" layer="1"/>
 <wire x1="15.963628125" y1="8.6786375" x2="15.963628125" y2="8.85318125" width="0.8128" layer="1"/>
 <via x="15.963628125" y="8.85318125" extent="1-16" drill="0.6"/>
@@ -5540,7 +5550,6 @@ design rules under a new name.</description>
 <wire x1="38.725709375" y1="43.989415625" x2="38.73686875" y2="44.000575" width="0.6096" layer="1"/>
 <via x="38.73686875" y="44.000575" extent="1-16" drill="0.6"/>
 <wire x1="38.73686875" y1="44.000575" x2="38.785009375" y2="44.000575" width="0.6096" layer="16"/>
-<wire x1="53.988675" y1="36.09395625" x2="55.83361875" y2="36.3759375" width="0.6096" layer="1"/>
 <wire x1="55.83361875" y1="36.3759375" x2="55.7963875" y2="43.8216" width="0.6096" layer="1"/>
 <via x="55.7963875" y="43.8216" extent="1-16" drill="0.6"/>
 <wire x1="41.82196875" y1="30.4882625" x2="40.1635125" y2="30.4882625" width="0.6096" layer="1"/>
@@ -5574,7 +5583,15 @@ design rules under a new name.</description>
 <wire x1="60.7468125" y1="48.772025" x2="55.7963875" y2="43.8216" width="0.6096" layer="16"/>
 <wire x1="38.785009375" y1="44.000575" x2="38.785009375" y2="46.367353125" width="0.6096" layer="16"/>
 <wire x1="38.785009375" y1="46.367353125" x2="41.18968125" y2="48.772025" width="0.6096" layer="16"/>
-<wire x1="26.6926625" y1="8.838665625" x2="26.18079375" y2="8.851090625" width="0" layer="19" extent="16-16"/>
+<wire x1="53.988675" y1="36.09395625" x2="54.27065625" y2="36.3759375" width="0.6096" layer="1"/>
+<wire x1="54.27065625" y1="36.3759375" x2="55.83361875" y2="36.3759375" width="0.6096" layer="1"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J7" pad="2"/>
+<wire x1="35.61151875" y1="8.887378125" x2="35.62245" y2="8.876446875" width="0.6096" layer="1"/>
+<wire x1="35.62245" y1="8.876446875" x2="38.7859625" y2="8.876446875" width="0.6096" layer="1"/>
+<wire x1="38.7859625" y1="8.876446875" x2="38.802165625" y2="8.86024375" width="0.6096" layer="1"/>
+<wire x1="38.802165625" y1="8.86024375" x2="41.835453125" y2="8.86024375" width="0.6096" layer="1"/>
+<wire x1="26.6926625" y1="8.838665625" x2="25.433678125" y2="8.851090625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 </signal>
@@ -5777,23 +5794,23 @@ design rules under a new name.</description>
 <signal name="AUX3">
 <contactref element="J3" pad="3"/>
 <contactref element="COMMUNICATION" pad="6"/>
-<wire x1="28.575" y1="2.54" x2="29.80315" y2="6.2293375" width="0.8128" layer="1"/>
+<wire x1="28.575" y1="2.54" x2="29.213321875" y2="6.1899875" width="0.8128" layer="1"/>
 </signal>
 <signal name="AUX1">
 <contactref element="J2" pad="3"/>
 <contactref element="COMMUNICATION" pad="8"/>
-<wire x1="33.655" y1="2.54" x2="36.376703125" y2="5.261703125" width="0.8128" layer="1"/>
-<wire x1="36.376703125" y1="5.261703125" x2="36.376703125" y2="6.2293375" width="0.8128" layer="1"/>
+<wire x1="33.655" y1="2.54" x2="35.86551875" y2="4.75051875" width="0.6096" layer="1"/>
+<wire x1="35.86551875" y1="4.75051875" x2="35.86551875" y2="6.347378125" width="0.6096" layer="1"/>
 </signal>
 <signal name="AUX2">
 <contactref element="J5" pad="3"/>
 <contactref element="COMMUNICATION" pad="7"/>
-<wire x1="31.115" y1="2.54" x2="33.00834375" y2="6.311090625" width="0.8128" layer="1"/>
+<wire x1="31.115" y1="2.54" x2="32.575803125" y2="6.193046875" width="0.8128" layer="1"/>
 </signal>
 <signal name="AUX4">
 <contactref element="J4" pad="3"/>
 <contactref element="COMMUNICATION" pad="5"/>
-<wire x1="26.035" y1="2.54" x2="26.43479375" y2="6.311090625" width="0.8128" layer="1"/>
+<wire x1="26.035" y1="2.54" x2="25.687678125" y2="6.311090625" width="0.8128" layer="1"/>
 </signal>
 <signal name="M3+">
 <contactref element="U$11" pad="C"/>
@@ -5904,6 +5921,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="INCD1">
 <contactref element="U$19" pad="P$6"/>
+</signal>
+<signal name="AUX5">
+<contactref element="PWML" pad="1"/>
+<contactref element="J6" pad="3"/>
+<wire x1="39.0399625" y1="6.336446875" x2="38.735" y2="6.031484375" width="0.6096" layer="1"/>
+<wire x1="38.735" y1="6.031484375" x2="38.735" y2="2.54" width="0.6096" layer="1"/>
+</signal>
+<signal name="AUX6">
+<contactref element="PWML" pad="2"/>
+<contactref element="J7" pad="3"/>
+<wire x1="42.089453125" y1="6.32024375" x2="41.275" y2="5.505790625" width="0.6096" layer="1"/>
+<wire x1="41.275" y1="5.505790625" x2="41.275" y2="2.54" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <errors>
