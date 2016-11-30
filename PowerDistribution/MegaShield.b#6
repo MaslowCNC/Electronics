@@ -5261,6 +5261,8 @@ design rules under a new name.</description>
 <element name="U$18" library="MakesmithDiode" package="SMA" value="MRA4004" x="88.589240625" y="43.0003125" smashed="yes" rot="R90"/>
 <element name="U$19" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="95.871675" y="41.675140625" rot="R270"/>
 <element name="U$20" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="58.7248875" y="41.3844875" rot="R270"/>
+<element name="J6" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="-0.579690625" y="-5.9751125"/>
+<element name="J7" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="-0.579690625" y="-10.86884375"/>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -5424,6 +5426,10 @@ design rules under a new name.</description>
 <wire x1="85.910071875" y1="39.439965625" x2="86.159378125" y2="39.689271875" width="0.6096" layer="1"/>
 <wire x1="86.159378125" y1="39.689271875" x2="86.159378125" y2="41.656271875" width="0.6096" layer="1"/>
 <wire x1="86.159378125" y1="41.656271875" x2="85.164246875" y2="42.651403125" width="0.6096" layer="1"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J7" pad="1"/>
+<wire x1="-0.579690625" y1="-5.8481125" x2="-0.579690625" y2="-10.74184375" width="0" layer="19" extent="1-1"/>
+<wire x1="26.43479375" y1="11.391090625" x2="-0.579690625" y2="-5.8481125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
@@ -5573,9 +5579,13 @@ design rules under a new name.</description>
 <wire x1="60.7468125" y1="48.772025" x2="55.7963875" y2="43.8216" width="0.6096" layer="16"/>
 <wire x1="38.785009375" y1="44.000575" x2="38.785009375" y2="46.367353125" width="0.6096" layer="16"/>
 <wire x1="38.785009375" y1="46.367353125" x2="41.18968125" y2="48.772025" width="0.6096" layer="16"/>
-<wire x1="26.6926625" y1="8.838665625" x2="26.18079375" y2="8.851090625" width="0" layer="19" extent="16-16"/>
 <wire x1="53.988675" y1="36.09395625" x2="54.27065625" y2="36.3759375" width="0.6096" layer="1"/>
 <wire x1="54.27065625" y1="36.3759375" x2="55.83361875" y2="36.3759375" width="0.6096" layer="1"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J7" pad="2"/>
+<wire x1="26.6926625" y1="8.838665625" x2="26.18079375" y2="8.851090625" width="0" layer="19" extent="16-16"/>
+<wire x1="1.960309375" y1="-6.1021125" x2="5.715" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="1.960309375" y1="-10.99584375" x2="1.960309375" y2="-6.1021125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 </signal>
@@ -5779,6 +5789,10 @@ design rules under a new name.</description>
 <contactref element="J3" pad="3"/>
 <contactref element="COMMUNICATION" pad="6"/>
 <wire x1="28.575" y1="2.54" x2="29.80315" y2="6.2293375" width="0.8128" layer="1"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J7" pad="3"/>
+<wire x1="4.500309375" y1="-5.8481125" x2="28.575" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="4.500309375" y1="-10.74184375" x2="4.500309375" y2="-5.8481125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX1">
 <contactref element="J2" pad="3"/>
@@ -5905,6 +5919,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="INCD1">
 <contactref element="U$19" pad="P$6"/>
+</signal>
+<signal name="AUX5">
+<contactref element="PWML" pad="2"/>
+</signal>
+<signal name="AUX6">
+<contactref element="PWML" pad="1"/>
 </signal>
 </signals>
 <errors>

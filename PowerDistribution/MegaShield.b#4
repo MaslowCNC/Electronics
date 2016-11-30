@@ -5789,10 +5789,6 @@ design rules under a new name.</description>
 <contactref element="J3" pad="3"/>
 <contactref element="COMMUNICATION" pad="6"/>
 <wire x1="28.575" y1="2.54" x2="29.80315" y2="6.2293375" width="0.8128" layer="1"/>
-<contactref element="J6" pad="3"/>
-<contactref element="J7" pad="3"/>
-<wire x1="4.500309375" y1="-5.8481125" x2="28.575" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="4.500309375" y1="-10.74184375" x2="4.500309375" y2="-5.8481125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX1">
 <contactref element="J2" pad="3"/>
@@ -5922,9 +5918,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="AUX5">
 <contactref element="PWML" pad="1"/>
+<contactref element="J6" pad="3"/>
+<wire x1="4.500309375" y1="-5.8481125" x2="38.735" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX6">
 <contactref element="PWML" pad="2"/>
+<contactref element="J7" pad="3"/>
+<wire x1="4.500309375" y1="-10.74184375" x2="41.275" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
