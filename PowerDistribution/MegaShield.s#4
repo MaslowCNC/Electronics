@@ -1947,8 +1947,8 @@ http://www.st.com&lt;p&gt;
 <smd name="18" x="-3.175" y="6.5" dx="0.6" dy="2.2" layer="1"/>
 <smd name="19" x="-4.445" y="6.5" dx="0.6" dy="2.2" layer="1"/>
 <smd name="20" x="-5.715" y="6.5" dx="0.6" dy="2.2" layer="1"/>
-<text x="-5.715" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="10.16" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-8.89" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-5.9601" y1="-7.22" x2="-5.4699" y2="-5.7001" layer="51"/>
 <rectangle x1="-4.6901" y1="-7.22" x2="-4.1999" y2="-5.7001" layer="51"/>
 <rectangle x1="-3.4201" y1="-7.22" x2="-2.9299" y2="-5.7001" layer="51"/>
@@ -1969,6 +1969,7 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
 <rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
 <rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
+<smd name="HEAT" x="0" y="0" dx="3" dy="6" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -1994,6 +1995,7 @@ http://www.st.com&lt;p&gt;
 <pin name="OUT2" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="OUT1" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
 <pin name="SEN_A" x="15.24" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="HEAT" x="15.24" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2035,6 +2037,7 @@ http://www.st.com&lt;p&gt;
 <connect gate="L298" pin="ENABLE_A" pad="8"/>
 <connect gate="L298" pin="ENABLE_B" pad="14"/>
 <connect gate="L298" pin="GND" pad="1"/>
+<connect gate="L298" pin="HEAT" pad="HEAT"/>
 <connect gate="L298" pin="INPUT1" pad="7"/>
 <connect gate="L298" pin="INPUT2" pad="9"/>
 <connect gate="L298" pin="INPUT3" pad="13"/>
@@ -3230,6 +3233,16 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U$20" gate="G$1" pin="P$4"/>
 <wire x1="350.52" y1="208.28" x2="345.44" y2="208.28" width="0.1524" layer="91"/>
 <label x="340.36" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="L298" pin="HEAT"/>
+<wire x1="187.96" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<label x="190.5" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="L298" pin="HEAT"/>
+<wire x1="190.5" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="193.04" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA1" class="0">

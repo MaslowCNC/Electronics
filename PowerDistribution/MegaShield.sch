@@ -2967,6 +2967,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$20" library="JST-CON" deviceset="JST-PH-6" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="COMMUNICATION1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3076,6 +3077,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="U$20" gate="G$1" x="360.68" y="208.28"/>
 <instance part="J6" gate="J$1" x="254" y="198.12"/>
 <instance part="J7" gate="J$1" x="276.86" y="198.12"/>
+<instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>

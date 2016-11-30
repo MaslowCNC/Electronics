@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.000003125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,11 +156,11 @@
 <plain>
 <wire x1="5.715" y1="0" x2="3.175" y2="2.54" width="0.254" layer="20"/>
 <wire x1="3.175" y1="12.7" x2="0.635" y2="15.24" width="0.254" layer="20"/>
-<wire x1="0.635" y1="15.24" x2="0.635" y2="47.625" width="0.254" layer="20"/>
-<wire x1="0.635" y1="47.625" x2="2.54" y2="49.53" width="0.254" layer="20"/>
-<wire x1="2.54" y1="49.53" x2="3.175" y2="50" width="0.254" layer="20"/>
-<wire x1="3.175" y1="50" x2="100" y2="50" width="0.254" layer="20"/>
-<wire x1="100" y1="50" x2="100" y2="0" width="0.254" layer="20"/>
+<wire x1="0.635" y1="15.24" x2="0.635" y2="50.625" width="0.254" layer="20"/>
+<wire x1="0.635" y1="50.625" x2="3.167684375" y2="52.986828125" width="0.254" layer="20"/>
+<wire x1="3.167684375" y1="52.986828125" x2="3.175" y2="53" width="0.254" layer="20"/>
+<wire x1="3.175" y1="53" x2="100" y2="53" width="0.254" layer="20"/>
+<wire x1="100" y1="53" x2="100" y2="0" width="0.254" layer="20"/>
 <wire x1="3.175" y1="2.54" x2="3.175" y2="12.7" width="0.254" layer="20"/>
 <wire x1="100" y1="0" x2="5.715" y2="0" width="0.254" layer="20"/>
 <rectangle x1="67.5513" y1="7.1501" x2="68.4911" y2="7.1755" layer="201"/>
@@ -5269,6 +5269,9 @@ design rules under a new name.</description>
 <element name="J7" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="41.962453125" y="11.40024375" smashed="yes" rot="R270">
 <attribute name="VALUE" x="38.787453125" y="12.67024375" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="COMMUNICATION1" library="pinhead" package="1X08" value="" x="42.545" y="50.8" smashed="yes">
+<attribute name="VALUE" x="32.385" y="47.625" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -5285,8 +5288,8 @@ design rules under a new name.</description>
 <contactref element="U$10" pad="A"/>
 <contactref element="J1" pad="3"/>
 <polygon width="0.6096" layer="16">
-<vertex x="-1.880709375" y="50.24780625"/>
-<vertex x="99.695" y="49.53"/>
+<vertex x="-1.39133125" y="54.75705"/>
+<vertex x="100.184378125" y="54.03924375"/>
 <vertex x="99.760878125" y="-0.407590625"/>
 <vertex x="54.41208125" y="0.09781875"/>
 <vertex x="-2.129090625" y="-2.14818125"/>
@@ -5603,8 +5606,8 @@ design rules under a new name.</description>
 <contactref element="U$7" pad="C"/>
 <contactref element="U$9" pad="C"/>
 <polygon width="0.6096" layer="1">
-<vertex x="20.313809375" y="49.436871875"/>
-<vertex x="100.33" y="49.53"/>
+<vertex x="20.313809375" y="53.357953125"/>
+<vertex x="100.33" y="53.45108125"/>
 <vertex x="98.658959375" y="4.49180625"/>
 <vertex x="20.504925" y="4.900575"/>
 </polygon>
