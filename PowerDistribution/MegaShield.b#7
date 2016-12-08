@@ -5912,6 +5912,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="ENC">
 <contactref element="IC2" pad="8"/>
+<contactref element="PWML" pad="6"/>
+<wire x1="51.435" y1="2.54" x2="71.118046875" y2="31.6955125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="END">
 <contactref element="IC2" pad="14"/>

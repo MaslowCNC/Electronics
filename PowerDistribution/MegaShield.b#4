@@ -5405,13 +5405,10 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="HEAT3"/>
 <contactref element="IC1" pad="HEAT4"/>
 <contactref element="IC1" pad="HEAT5"/>
+<contactref element="IC1" pad="HEAT6"/>
 <wire x1="71.118046875" y1="39.3155125" x2="77.618046875" y2="34.8705125" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="42.0832625" x2="31.972309375" y2="44.91415" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="39.5432625" x2="31.941503125" y2="42.0832625" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="37.0032625" x2="31.941503125" y2="39.5432625" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="35.7332625" x2="31.941503125" y2="37.0032625" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="34.4632625" x2="31.941503125" y2="35.7332625" width="0" layer="19" extent="1-1"/>
-<wire x1="31.941503125" y1="31.9232625" x2="31.941503125" y2="34.4632625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.941503125" y1="35.7332625" x2="31.941503125" y2="34.4632625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.941503125" y1="29.3832625" x2="31.941503125" y2="31.9232625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>

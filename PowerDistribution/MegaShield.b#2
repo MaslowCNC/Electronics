@@ -5412,13 +5412,7 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="HEAT4"/>
 <contactref element="IC2" pad="HEAT5"/>
 <contactref element="IC2" pad="HEAT6"/>
-<wire x1="77.618046875" y1="38.6805125" x2="77.618046875" y2="41.2205125" width="0" layer="19" extent="1-1"/>
-<wire x1="77.618046875" y1="36.1405125" x2="77.618046875" y2="38.6805125" width="0" layer="19" extent="1-1"/>
-<wire x1="77.618046875" y1="34.8705125" x2="77.618046875" y2="36.1405125" width="0" layer="19" extent="1-1"/>
 <wire x1="77.618046875" y1="33.6005125" x2="77.618046875" y2="34.8705125" width="0" layer="19" extent="1-1"/>
-<wire x1="77.618046875" y1="31.0605125" x2="77.618046875" y2="33.6005125" width="0" layer="19" extent="1-1"/>
-<wire x1="77.618046875" y1="28.5205125" x2="77.618046875" y2="31.0605125" width="0" layer="19" extent="1-1"/>
-<wire x1="76.945509375" y1="44.16678125" x2="77.618046875" y2="41.2205125" width="0" layer="19" extent="1-1"/>
 <wire x1="31.941503125" y1="35.7332625" x2="31.941503125" y2="34.4632625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCA1">
