@@ -2207,12 +2207,13 @@ Source: DCJ0202.pdf</description>
 <packages>
 <package name="JST-PHR-6-SMD">
 <wire x1="-1.27" y1="2.5" x2="14.605" y2="2.5" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-<pad name="P$2" x="2.5" y="0" drill="0.8"/>
-<pad name="P$3" x="5" y="0" drill="0.8"/>
-<pad name="P$4" x="7.5" y="0" drill="0.8"/>
-<pad name="P$5" x="10" y="0" drill="0.8"/>
-<pad name="P$6" x="12.5" y="0" drill="0.8"/>
+<pad name="P$1" x="0" y="0" drill="0.9"/>
+<pad name="P$2" x="2.5" y="0" drill="0.9"/>
+<pad name="P$3" x="5" y="0" drill="0.9"/>
+<pad name="P$4" x="7.5" y="0" drill="0.9"/>
+<pad name="P$5" x="10" y="0" drill="0.9"/>
+<pad name="P$6" x="12.5" y="0" drill="0.9"/>
+<wire x1="-1.27" y1="-2.5" x2="14.605" y2="-2.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

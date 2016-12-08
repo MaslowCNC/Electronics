@@ -3792,6 +3792,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="160.02" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PWML" gate="A" pin="6"/>
+<wire x1="58.42" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<label x="45.72" y="149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="END" class="0">
 <segment>
