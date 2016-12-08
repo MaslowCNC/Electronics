@@ -2206,13 +2206,14 @@ Source: DCJ0202.pdf</description>
 <library name="JST-CON">
 <packages>
 <package name="JST-PHR-6-SMD">
-<wire x1="-1.27" y1="2.5" x2="14.605" y2="2.5" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-<pad name="P$2" x="2.5" y="0" drill="0.8"/>
-<pad name="P$3" x="5" y="0" drill="0.8"/>
-<pad name="P$4" x="7.5" y="0" drill="0.8"/>
-<pad name="P$5" x="10" y="0" drill="0.8"/>
-<pad name="P$6" x="12.5" y="0" drill="0.8"/>
+<wire x1="-1.27" y1="2.875" x2="14.605" y2="2.875" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="0.9"/>
+<pad name="P$2" x="2.5" y="0" drill="0.9"/>
+<pad name="P$3" x="5" y="0" drill="0.9"/>
+<pad name="P$4" x="7.5" y="0" drill="0.9"/>
+<pad name="P$5" x="10" y="0" drill="0.9"/>
+<pad name="P$6" x="12.5" y="0" drill="0.9"/>
+<wire x1="-1.27" y1="-2.875" x2="14.605" y2="-2.875" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2967,6 +2968,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$20" library="JST-CON" deviceset="JST-PH-6" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="COMMUNICATION1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3076,6 +3078,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="U$20" gate="G$1" x="360.68" y="208.28"/>
 <instance part="J6" gate="J$1" x="254" y="198.12"/>
 <instance part="J7" gate="J$1" x="276.86" y="198.12"/>
+<instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3660,16 +3665,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="58.42" y1="177.8" x2="48.26" y2="177.8" width="0.1524" layer="91"/>
 <label x="43.18" y="177.8" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J6" gate="J$1" pin="3"/>
-<wire x1="261.62" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
-<label x="264.16" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J7" gate="J$1" pin="3"/>
-<wire x1="284.48" y1="200.66" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
-<label x="287.02" y="200.66" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AUX1" class="0">
 <segment>
@@ -3869,16 +3864,26 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="AUX5" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="2"/>
-<wire x1="58.42" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="43.18" y="139.7" size="1.778" layer="95"/>
+<pinref part="PWML" gate="A" pin="1"/>
+<wire x1="58.42" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="43.18" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J6" gate="J$1" pin="3"/>
+<wire x1="261.62" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
+<label x="264.16" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUX6" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="1"/>
-<wire x1="58.42" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="43.18" y="137.16" size="1.778" layer="95"/>
+<pinref part="PWML" gate="A" pin="2"/>
+<wire x1="58.42" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="43.18" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J7" gate="J$1" pin="3"/>
+<wire x1="284.48" y1="200.66" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
+<label x="287.02" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
