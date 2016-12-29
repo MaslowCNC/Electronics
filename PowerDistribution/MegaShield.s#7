@@ -3286,6 +3286,23 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="IC2" gate="L298" pin="HEAT"/>
 <wire x1="190.5" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.778" layer="95"/>
+<pinref part="IC2" gate="L298" pin="HEAT1"/>
+<wire x1="190.5" y1="91.44" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="L298" pin="HEAT2"/>
+<wire x1="190.5" y1="86.36" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="L298" pin="HEAT3"/>
+<wire x1="190.5" y1="86.36" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="L298" pin="HEAT4"/>
+<wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="L298" pin="HEAT5"/>
+<wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="L298" pin="HEAT6"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<junction x="190.5" y="78.74"/>
+<junction x="190.5" y="81.28"/>
+<junction x="190.5" y="83.82"/>
+<junction x="190.5" y="86.36"/>
+<junction x="190.5" y="88.9"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="1"/>

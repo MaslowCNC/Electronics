@@ -3253,6 +3253,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="55.88" y1="241.3" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
 <label x="45.72" y="241.3" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="55.88" y1="241.3" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
+<junction x="55.88" y="241.3"/>
 </segment>
 </net>
 <net name="12V" class="0">

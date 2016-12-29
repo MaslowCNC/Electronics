@@ -3277,6 +3277,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="190.5" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="L298" pin="HEAT5"/>
 <wire x1="187.96" y1="139.7" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
+<junction x="187.96" y="139.7"/>
+<junction x="187.96" y="142.24"/>
+<junction x="187.96" y="144.78"/>
+<junction x="190.5" y="147.32"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="L298" pin="HEAT"/>
