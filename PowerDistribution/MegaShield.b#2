@@ -5879,6 +5879,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="INCD2">
 <contactref element="U$19" pad="P$5"/>
+<contactref element="COMMUNICATION1" pad="7"/>
+<wire x1="48.895" y1="50.8" x2="97.190734375" y2="33.434" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCD1">
 <contactref element="U$19" pad="P$6"/>

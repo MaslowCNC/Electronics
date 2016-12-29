@@ -4541,6 +4541,7 @@
 <text x="36.41259375" y="13.411153125" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
 <text x="41.414784375" y="13.411153125" size="1.778" layer="21" ratio="15" rot="R90">AUX6</text>
 <text x="39.08969375" y="13.411153125" size="1.778" layer="21" ratio="15" rot="R90">AUX5</text>
+<text x="4.461546875" y="6.92385625" size="1.778" layer="1">V1.0</text>
 </plain>
 <libraries>
 <library name="pinhead">

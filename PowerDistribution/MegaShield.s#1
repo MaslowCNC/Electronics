@@ -3719,9 +3719,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="340.36" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION1" gate="A" pin="7"/>
-<wire x1="76.2" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
-<label x="83.82" y="182.88" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION1" gate="A" pin="8"/>
+<wire x1="76.2" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
+<label x="83.82" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCD1" class="0">
@@ -3731,9 +3731,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="340.36" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION1" gate="A" pin="8"/>
-<wire x1="76.2" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<label x="83.82" y="185.42" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION1" gate="A" pin="7"/>
+<wire x1="76.2" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="83.82" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUX5" class="0">
