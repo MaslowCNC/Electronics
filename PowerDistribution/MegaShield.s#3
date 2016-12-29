@@ -763,6 +763,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0.865675" y1="-1.09271875" x2="0.865675" y2="1.0628625" width="0.127" layer="21"/>
 </package>
 <package name="LED_LD260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -3344,13 +3345,6 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="266.7" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ZPWM" class="0">
-<segment>
-<pinref part="PWML" gate="A" pin="5"/>
-<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
-</segment>
-</net>
 <net name="ENA" class="0">
 <segment>
 <pinref part="IC1" gate="L298" pin="ENABLE_A"/>
@@ -3664,6 +3658,11 @@ GND-GND-GND-5V -&gt; 0001</text>
 <wire x1="160.02" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
+</segment>
 </net>
 <net name="IN5" class="0">
 <segment>
@@ -3696,9 +3695,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="7"/>
-<wire x1="58.42" y1="213.36" x2="53.34" y2="213.36" width="0.1524" layer="91"/>
-<label x="48.26" y="213.36" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="8"/>
+<wire x1="58.42" y1="215.9" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
+<label x="48.26" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN8" class="0">
@@ -3708,9 +3707,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="8"/>
-<wire x1="58.42" y1="215.9" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
-<label x="48.26" y="215.9" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="7"/>
+<wire x1="58.42" y1="213.36" x2="53.34" y2="213.36" width="0.1524" layer="91"/>
+<label x="48.26" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCD2" class="0">
