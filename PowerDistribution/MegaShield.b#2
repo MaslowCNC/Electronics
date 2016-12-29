@@ -5336,8 +5336,14 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="2"/>
 <wire x1="5.711590625" y1="45.723409375" x2="8.257575" y2="45.723409375" width="0.6096" layer="1"/>
 <wire x1="8.257575" y1="45.723409375" x2="8.257575" y2="45.71901875" width="0.6096" layer="1"/>
+<contactref element="JP4" pad="3"/>
+<contactref element="JP4" pad="4"/>
+<contactref element="JP3" pad="4"/>
 <wire x1="77.618046875" y1="33.6005125" x2="77.618046875" y2="34.8705125" width="0" layer="19" extent="1-1"/>
 <wire x1="31.941503125" y1="35.7332625" x2="31.941503125" y2="34.4632625" width="0" layer="19" extent="1-1"/>
+<wire x1="8.257575" y1="43.17901875" x2="8.257575" y2="45.723409375" width="0" layer="19" extent="1-1"/>
+<wire x1="5.717575" y1="43.17901875" x2="5.717575" y2="45.71901875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7161125" y1="5.0796875" x2="25.687678125" y2="11.391090625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
@@ -5506,8 +5512,10 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 <contactref element="JP3" pad="2"/>
 <wire x1="8.2561125" y1="2.5396875" x2="5.7161125" y2="2.5396875" width="0.6096" layer="1"/>
+<contactref element="JP3" pad="3"/>
 <wire x1="26.6926625" y1="8.838665625" x2="25.433678125" y2="8.851090625" width="0" layer="19" extent="16-16"/>
 <wire x1="8.2561125" y1="2.5396875" x2="8.4106625" y2="2.3843375" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2561125" y1="5.0796875" x2="8.2561125" y2="2.5396875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 </signal>
