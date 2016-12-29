@@ -2845,6 +2845,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="309.88" y="241.3" size="6.4516" layer="91">Motor Con</text>
 <text x="355.6" y="218.44" size="1.778" layer="91">Motor 4</text>
 <text x="355.6" y="195.58" size="1.778" layer="91">Motor 3</text>
+<text x="35.56" y="223.52" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
+The software can read these pins and detect the shield version.
+GND-GND-GND-5V -&gt; 0001</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
@@ -2895,8 +2898,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP3" gate="A" x="60.96" y="238.76"/>
-<instance part="JP4" gate="A" x="83.82" y="238.76"/>
+<instance part="JP3" gate="A" x="91.44" y="241.3"/>
+<instance part="JP4" gate="A" x="58.42" y="241.3"/>
 </instances>
 <busses>
 </busses>
@@ -3105,12 +3108,22 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="287.02" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="53.34" y1="243.84" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="243.84" x2="68.58" y2="243.84" width="0.1524" layer="91"/>
+<label x="68.58" y="243.84" size="1.778" layer="95"/>
+<junction x="60.96" y="243.84"/>
 <pinref part="JP4" gate="A" pin="3"/>
 <pinref part="JP4" gate="A" pin="4"/>
-<wire x1="86.36" y1="238.76" x2="78.74" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
-<label x="93.98" y="238.76" size="1.778" layer="95"/>
-<junction x="86.36" y="238.76"/>
+<wire x1="53.34" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="241.3" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="93.98" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="241.3" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
+<label x="99.06" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -3259,11 +3272,13 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="55.88" y1="241.3" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
-<label x="45.72" y="241.3" size="1.778" layer="95"/>
+<wire x1="86.36" y1="243.84" x2="78.74" y2="243.84" width="0.1524" layer="91"/>
+<label x="76.2" y="243.84" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="55.88" y1="241.3" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
-<junction x="55.88" y="241.3"/>
+<wire x1="86.36" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
+<junction x="86.36" y="243.84"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="86.36" y1="241.3" x2="86.36" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -3755,4 +3770,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
