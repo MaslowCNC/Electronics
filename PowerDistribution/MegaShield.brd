@@ -5152,7 +5152,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="89.263790625" y="6.410875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="89.263790625" y="6.410875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="12.78159375" y="43.434" rot="R270"/>
+<element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="12.78159375" y="43.434" smashed="yes" rot="R270"/>
 <element name="U$12" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="51.018246875" y="43.434" rot="R270"/>
 <element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="35.56" y="11.3792" smashed="yes" rot="R270">
 <attribute name="VALUE" x="32.385" y="12.6492" size="1.27" layer="27" rot="R270"/>
@@ -5198,7 +5198,9 @@ design rules under a new name.</description>
 <element name="JP3" library="pinhead" package="2X02" value="" x="6.9861125" y="3.8096875" smashed="yes" rot="R90">
 <attribute name="VALUE" x="11.4311125" y="1.2696875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP4" library="pinhead" package="2X02" value="" x="6.987575" y="44.44901875" rot="R270"/>
+<element name="JP4" library="pinhead" package="2X02" value="" x="6.987575" y="44.44901875" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.542575" y="46.98901875" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
