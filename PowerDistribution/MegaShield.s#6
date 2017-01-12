@@ -3345,13 +3345,6 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="266.7" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ZPWM" class="0">
-<segment>
-<pinref part="PWML" gate="A" pin="5"/>
-<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
-</segment>
-</net>
 <net name="ENA" class="0">
 <segment>
 <pinref part="IC1" gate="L298" pin="ENABLE_A"/>
@@ -3664,6 +3657,11 @@ GND-GND-GND-5V -&gt; 0001</text>
 <pinref part="IC2" gate="L298" pin="ENABLE_B"/>
 <wire x1="160.02" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 <net name="IN5" class="0">

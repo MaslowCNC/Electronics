@@ -3097,6 +3097,7 @@ GND-GND-GND-5V -&gt; 0001</text>
 <junction x="190.5" y="83.82"/>
 <junction x="190.5" y="86.36"/>
 <junction x="190.5" y="88.9"/>
+<junction x="190.5" y="91.44"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="1"/>
@@ -3119,6 +3120,7 @@ GND-GND-GND-5V -&gt; 0001</text>
 <pinref part="JP4" gate="A" pin="4"/>
 <wire x1="53.34" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="241.3" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
+<junction x="60.96" y="241.3"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="4"/>
@@ -3764,18 +3766,23 @@ GND-GND-GND-5V -&gt; 0001</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,157.48,99.06,IC1,VCC,5V,,,"/>
-<approved hash="104,1,187.96,99.06,IC1,VS,12V,,,"/>
-<approved hash="113,1,58.6994,69.85,PWML,,,,,"/>
-<approved hash="113,1,58.6571,129.409,PWMH,,,,,"/>
-<approved hash="113,1,58.6994,97.79,COMMUNICATION,,,,,"/>
-<approved hash="113,1,62.1877,162.691,JP1,,,,,"/>
-<approved hash="113,1,102.828,160.151,JP2,,,,,"/>
-<approved hash="113,1,190.822,143.51,USB,,,,,"/>
-<approved hash="113,1,258.403,156.405,J2,,,,,"/>
-<approved hash="113,1,258.403,138.625,J3,,,,,"/>
-<approved hash="113,1,281.263,138.625,J4,,,,,"/>
-<approved hash="113,1,281.263,156.405,J5,,,,,"/>
+<approved hash="104,1,157.48,175.26,IC1,VCC,5V,,,"/>
+<approved hash="104,1,187.96,175.26,IC1,VS,12V,,,"/>
+<approved hash="104,1,160.02,116.84,IC2,VCC,5V,,,"/>
+<approved hash="104,1,190.5,116.84,IC2,VS,12V,,,"/>
+<approved hash="113,1,58.6994,146.05,PWML,,,,,"/>
+<approved hash="113,1,58.6571,205.609,PWMH,,,,,"/>
+<approved hash="113,1,58.6994,173.99,COMMUNICATION,,,,,"/>
+<approved hash="113,1,190.822,219.71,USB,,,,,"/>
+<approved hash="113,1,258.403,232.605,J2,,,,,"/>
+<approved hash="113,1,258.403,214.825,J3,,,,,"/>
+<approved hash="113,1,281.263,214.825,J4,,,,,"/>
+<approved hash="113,1,281.263,232.605,J5,,,,,"/>
+<approved hash="113,1,258.403,199.585,J6,,,,,"/>
+<approved hash="113,1,281.263,199.585,J7,,,,,"/>
+<approved hash="113,1,76.4794,176.53,COMMUNICATION1,,,,,"/>
+<approved hash="113,1,90.1277,243.971,JP3,,,,,"/>
+<approved hash="113,1,57.1077,243.971,JP4,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -2054,7 +2054,17 @@ Source: DCJ0202.pdf</description>
 <pad name="P$4" x="7.5" y="0" drill="0.9"/>
 <pad name="P$5" x="10" y="0" drill="0.9"/>
 <pad name="P$6" x="12.5" y="0" drill="0.9"/>
-<wire x1="-1.27" y1="-2.875" x2="14.605" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.875" x2="1.27" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.875" x2="2.54" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.875" x2="8.89" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.875" x2="10.16" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.875" x2="14.605" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.875" x2="1.27" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.778" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.778" x2="2.54" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.875" x2="8.89" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.778" x2="10.16" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-1.778" x2="10.16" y2="-2.875" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2773,7 +2783,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="PWMH" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="COMMUNICATION" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="USB" library="eagle-ltspice" deviceset="LED_E" device=""/>
-<part name="R4" library="eagle-ltspice" deviceset="R" device="" value="270"/>
+<part name="R1" library="eagle-ltspice" deviceset="R" device="" value="270"/>
 <part name="IC1" library="st-microelectronics" deviceset="L298" device="SO" value="L298SO"/>
 <part name="U$3" library="MakesmithDiode" deviceset="MRA4004" device=""/>
 <part name="C1" library="eagle-ltspice" deviceset="C" device="" value=".1uF"/>
@@ -2861,8 +2871,8 @@ GND-GND-GND-5V -&gt; 0001</text>
 <instance part="COMMUNICATION" gate="A" x="60.96" y="175.26" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="54.61" y="187.96" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="USB" gate="G$1" x="190.5" y="220.98"/>
-<instance part="R4" gate="G$1" x="190.5" y="231.14" rot="R90"/>
+<instance part="USB" gate="G$1" x="200.66" y="223.52" rot="R270"/>
+<instance part="R1" gate="G$1" x="210.82" y="223.52"/>
 <instance part="IC1" gate="L298" x="172.72" y="160.02"/>
 <instance part="U$3" gate="G$1" x="226.06" y="167.64" rot="R90"/>
 <instance part="C1" gate="G$1" x="154.94" y="182.88" rot="R270"/>
@@ -2908,9 +2918,8 @@ GND-GND-GND-5V -&gt; 0001</text>
 <net name="GND" class="2">
 <segment>
 <pinref part="USB" gate="G$1" pin="C"/>
-<wire x1="190.5" y1="215.9" x2="198.12" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="215.9" x2="198.12" y2="210.82" width="0.1524" layer="91"/>
-<label x="198.12" y="208.28" size="1.778" layer="95"/>
+<wire x1="195.58" y1="223.52" x2="190.5" y2="223.52" width="0.1524" layer="91"/>
+<label x="185.42" y="223.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -3203,9 +3212,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="236.22" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
-<label x="185.42" y="241.3" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="223.52" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
+<label x="220.98" y="223.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="L298" pin="VCC"/>
@@ -3422,8 +3431,8 @@ GND-GND-GND-5V -&gt; 0001</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="USB" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="226.06" x2="190.5" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="223.52" x2="203.2" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M1+" class="0">
