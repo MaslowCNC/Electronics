@@ -763,6 +763,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0.865675" y1="-1.09271875" x2="0.865675" y2="1.0628625" width="0.127" layer="21"/>
 </package>
 <package name="LED_LD260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;

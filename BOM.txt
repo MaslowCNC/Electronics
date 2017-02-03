@@ -4,6 +4,6 @@ XH-Series Connectors: 455-2271-ND
 Power Jack:           CP-002A-ND
 Flyback Diodes:       MRA4004T3GOSCT-ND
 Filter Caps:          311-1361-1-ND
-H-Bridge:             497-1395-5-ND
+H-Bridge:             497-3624-1-ND 
 Indicator LED:        475-1410-1-ND 
 Current Limiting R:   RMCF0805JT270RCT-ND
