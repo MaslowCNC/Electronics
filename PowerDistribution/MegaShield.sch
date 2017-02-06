@@ -3145,9 +3145,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="312.42" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="4"/>
-<wire x1="58.42" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
-<label x="43.18" y="144.78" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION" gate="A" pin="3"/>
+<wire x1="58.42" y1="170.18" x2="48.26" y2="170.18" width="0.1524" layer="91"/>
+<label x="43.18" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA2" class="0">
@@ -3157,9 +3157,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="312.42" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="3"/>
-<wire x1="58.42" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="43.18" y="142.24" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION" gate="A" pin="4"/>
+<wire x1="58.42" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
+<label x="43.18" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCB1" class="0">
@@ -3169,9 +3169,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="312.42" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION" gate="A" pin="3"/>
-<wire x1="58.42" y1="170.18" x2="48.26" y2="170.18" width="0.1524" layer="91"/>
-<label x="43.18" y="170.18" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION" gate="A" pin="2"/>
+<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
+<label x="43.18" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCB2" class="0">
@@ -3181,33 +3181,33 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="312.42" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION" gate="A" pin="4"/>
-<wire x1="58.42" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
-<label x="43.18" y="172.72" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION" gate="A" pin="1"/>
+<wire x1="58.42" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
+<label x="43.18" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCC1" class="0">
-<segment>
-<pinref part="COMMUNICATION" gate="A" pin="2"/>
-<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="43.18" y="167.64" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$6"/>
 <wire x1="350.52" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91"/>
 <label x="340.36" y="213.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PWML" gate="A" pin="4"/>
+<wire x1="58.42" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
+<label x="43.18" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INCC2" class="0">
-<segment>
-<pinref part="COMMUNICATION" gate="A" pin="1"/>
-<wire x1="58.42" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
-<label x="43.18" y="165.1" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$5"/>
 <wire x1="350.52" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
 <label x="340.36" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWML" gate="A" pin="3"/>
+<wire x1="58.42" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="43.18" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">

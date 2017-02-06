@@ -4871,7 +4871,17 @@ Source: DCJ0202.pdf</description>
 <pad name="P$4" x="7.5" y="0" drill="0.9"/>
 <pad name="P$5" x="10" y="0" drill="0.9"/>
 <pad name="P$6" x="12.5" y="0" drill="0.9"/>
-<wire x1="-1.27" y1="-2.875" x2="14.605" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.875" x2="1.27" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.875" x2="2.54" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.875" x2="8.89" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.875" x2="10.16" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.875" x2="14.605" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.875" x2="1.27" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.778" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.778" x2="2.54" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.875" x2="8.89" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.778" x2="10.16" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-1.778" x2="10.16" y2="-2.875" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5123,7 +5133,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.538896875" y="48.1784875" size="1.27" layer="25" rot="SR90"/>
 <attribute name="VALUE" x="8.403590625" y="53.07169375" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R4" library="eagle-ltspice" package="R0805" value="270" x="11.721359375" y="50.594009375" smashed="yes">
+<element name="R1" library="eagle-ltspice" package="R0805" value="270" x="11.721359375" y="50.594009375" smashed="yes">
 <attribute name="SPICEPREFIX" value="R" x="11.721359375" y="50.594009375" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="11.721359375" y="50.594009375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.169025" y="49.942646875" size="1.27" layer="27"/>
@@ -5152,7 +5162,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="89.263790625" y="6.410875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="89.263790625" y="6.410875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="12.78159375" y="43.434" rot="R270"/>
+<element name="U$1" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="12.78159375" y="43.434" smashed="yes" rot="R270"/>
 <element name="U$12" library="JST-CON" package="JST-PHR-6-SMD" value="JST-PH-6" x="51.018246875" y="43.434" rot="R270"/>
 <element name="J2" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="35.56" y="11.3792" smashed="yes" rot="R270">
 <attribute name="VALUE" x="32.385" y="12.6492" size="1.27" layer="27" rot="R270"/>
@@ -5198,7 +5208,9 @@ design rules under a new name.</description>
 <element name="JP3" library="pinhead" package="2X02" value="" x="6.9861125" y="3.8096875" smashed="yes" rot="R90">
 <attribute name="VALUE" x="11.4311125" y="1.2696875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP4" library="pinhead" package="2X02" value="" x="6.987575" y="44.44901875" rot="R270"/>
+<element name="JP4" library="pinhead" package="2X02" value="" x="6.987575" y="44.44901875" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.542575" y="46.98901875" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -5413,7 +5425,7 @@ design rules under a new name.</description>
 <wire x1="56.97715" y1="33.39279375" x2="57.01835625" y2="33.434" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V">
-<contactref element="R4" pad="2"/>
+<contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="12"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U$1" pad="P$3"/>
@@ -5549,7 +5561,11 @@ design rules under a new name.</description>
 <via x="61.2339625" y="26.726946875" extent="1-16" drill="0.6"/>
 <wire x1="61.2339625" y1="26.726946875" x2="62.343428125" y2="25.61748125" width="1.4224" layer="1"/>
 <wire x1="62.343428125" y1="25.61748125" x2="62.343428125" y2="25.53149375" width="1.4224" layer="1"/>
-<wire x1="88.302025" y1="45.053" x2="88.13766875" y2="31.6042" width="0" layer="19" extent="1-1"/>
+<wire x1="61.2339625" y1="26.726946875" x2="62.69985625" y2="25.261053125" width="1.4224" layer="16"/>
+<wire x1="62.69985625" y1="25.261053125" x2="88.102634375" y2="25.261053125" width="1.4224" layer="16"/>
+<via x="88.102634375" y="25.261053125" extent="1-16" drill="0.6"/>
+<wire x1="88.102634375" y1="25.261053125" x2="88.3685375" y2="24.99515" width="1.4224" layer="1"/>
+<wire x1="88.3685375" y1="24.99515" x2="91.821540625" y2="24.99515" width="1.4224" layer="1"/>
 </signal>
 <signal name="ENA">
 <contactref element="IC1" pad="8"/>
@@ -5650,7 +5666,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="USB" pad="A"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R1" pad="1"/>
 <wire x1="8.555590625" y1="50.53169375" x2="10.70904375" y2="50.53169375" width="0.6096" layer="1"/>
 <wire x1="10.70904375" y1="50.53169375" x2="10.771359375" y2="50.594009375" width="0.6096" layer="1"/>
 </signal>
