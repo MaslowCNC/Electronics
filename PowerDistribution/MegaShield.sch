@@ -3132,10 +3132,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <junction x="60.96" y="241.3"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="93.98" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="241.3" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
-<label x="99.06" y="236.22" size="1.778" layer="95"/>
+<label x="86.36" y="236.22" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="86.36" y1="236.22" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -3289,8 +3288,8 @@ GND-GND-GND-5V -&gt; 0001</text>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="86.36" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
 <junction x="86.36" y="243.84"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="86.36" y1="241.3" x2="86.36" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="93.98" y1="243.84" x2="93.98" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -3670,9 +3669,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="5"/>
-<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
+<pinref part="PWMH" gate="A" pin="7"/>
+<wire x1="58.42" y1="213.36" x2="53.34" y2="213.36" width="0.1524" layer="91"/>
+<label x="48.26" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN5" class="0">
@@ -3694,9 +3693,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="6"/>
-<wire x1="58.42" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
-<label x="48.26" y="210.82" size="1.778" layer="95"/>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 <net name="IN7" class="0">
@@ -3718,9 +3717,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="7"/>
-<wire x1="58.42" y1="213.36" x2="53.34" y2="213.36" width="0.1524" layer="91"/>
-<label x="48.26" y="213.36" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="6"/>
+<wire x1="58.42" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
+<label x="48.26" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCD2" class="0">
