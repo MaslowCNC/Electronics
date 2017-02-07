@@ -3748,26 +3748,26 @@ GND-GND-GND-5V -&gt; 0001</text>
 </net>
 <net name="AUX5" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="1"/>
-<wire x1="58.42" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="43.18" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J6" gate="J$1" pin="3"/>
 <wire x1="261.62" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
 <label x="264.16" y="200.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="COMMUNICATION1" gate="A" pin="1"/>
+<wire x1="76.2" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="83.82" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AUX6" class="0">
-<segment>
-<pinref part="PWML" gate="A" pin="2"/>
-<wire x1="58.42" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="43.18" y="139.7" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="J7" gate="J$1" pin="3"/>
 <wire x1="284.48" y1="200.66" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
 <label x="287.02" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="COMMUNICATION1" gate="A" pin="2"/>
+<wire x1="76.2" y1="170.18" x2="83.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="83.82" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
