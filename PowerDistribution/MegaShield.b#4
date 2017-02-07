@@ -5789,18 +5789,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="INCD2">
 <contactref element="U$19" pad="P$5"/>
-<contactref element="COMMUNICATION1" pad="8"/>
-<wire x1="51.435" y1="50.8" x2="93.375096875" y2="26.52845" width="0" layer="19" extent="1-1"/>
+<contactref element="COMMUNICATION1" pad="7"/>
+<wire x1="48.895" y1="50.8" x2="93.375096875" y2="26.52845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INCD1">
 <contactref element="U$19" pad="P$6"/>
-<contactref element="COMMUNICATION1" pad="7"/>
-<via x="90.300371875" y="40.314903125" extent="1-16" drill="0.6"/>
-<wire x1="90.300371875" y1="40.314903125" x2="90.727009375" y2="39.888265625" width="0.6096" layer="16"/>
-<wire x1="90.727009375" y1="39.888265625" x2="90.727009375" y2="25.542503125" width="0.6096" layer="16"/>
-<wire x1="90.727009375" y1="25.542503125" x2="92.2410625" y2="24.02845" width="0.6096" layer="16"/>
-<wire x1="92.2410625" y1="24.02845" x2="93.375096875" y2="24.02845" width="0.6096" layer="16"/>
-<wire x1="48.895" y1="50.8" x2="90.300371875" y2="40.314903125" width="0" layer="19" extent="1-1"/>
+<contactref element="COMMUNICATION1" pad="8"/>
+<wire x1="51.435" y1="50.8" x2="93.375096875" y2="24.02845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX5">
 <contactref element="J6" pad="3"/>

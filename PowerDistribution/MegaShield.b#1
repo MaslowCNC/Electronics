@@ -4784,13 +4784,6 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
 <rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
 <rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
-<smd name="HEAT" x="0" y="0" dx="3" dy="14" layer="1" rot="R90"/>
-<pad name="HEAT6" x="6.35" y="0" drill="0.8"/>
-<pad name="HEAT5" x="3.81" y="0" drill="0.8"/>
-<pad name="HEAT4" x="1.27" y="0" drill="0.8"/>
-<pad name="HEAT3" x="-1.27" y="0" drill="0.8"/>
-<pad name="HEAT2" x="-3.81" y="0" drill="0.8"/>
-<pad name="HEAT1" x="-6.35" y="0" drill="0.8"/>
 </package>
 </packages>
 </library>
