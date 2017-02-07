@@ -5889,11 +5889,6 @@ design rules under a new name.</description>
 <wire x1="32.1065125" y1="42.85506875" x2="36.195" y2="46.94355625" width="0.6096" layer="16"/>
 <wire x1="36.195" y1="46.94355625" x2="36.195" y2="50.8" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$3" class="2">
-<contactref element="IC2" pad="HEAT"/>
-<contactref element="IC2" pad="HEAT1"/>
-<wire x1="73.802409375" y1="28.83225" x2="73.802409375" y2="35.18225" width="0" layer="19" extent="1-1"/>
-</signal>
 </signals>
 <errors>
 <approved hash="4,1,f80894f3ca52c5ad"/>

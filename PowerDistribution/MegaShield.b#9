@@ -5771,15 +5771,15 @@ design rules under a new name.</description>
 <wire x1="69.191184375" y1="29.028003125" x2="69.191184375" y2="29.766896875" width="0.6096" layer="1"/>
 <wire x1="69.191184375" y1="29.766896875" x2="69.52971875" y2="30.10543125" width="0.6096" layer="1"/>
 <wire x1="69.52971875" y1="30.10543125" x2="70.852496875" y2="30.10543125" width="0.6096" layer="1"/>
-<contactref element="PWMH" pad="4"/>
-<wire x1="67.945" y1="2.54" x2="70.21945" y2="23.294053125" width="0" layer="19" extent="1-1"/>
+<contactref element="PWMH" pad="3"/>
+<wire x1="65.405" y1="2.54" x2="70.21945" y2="23.294053125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN6">
 <contactref element="IC2" pad="9"/>
 <wire x1="73.024240625" y1="26.2394375" x2="71.698246875" y2="27.56543125" width="0.6096" layer="1"/>
 <wire x1="71.698246875" y1="27.56543125" x2="70.852496875" y2="27.56543125" width="0.6096" layer="1"/>
-<contactref element="PWMH" pad="3"/>
-<wire x1="65.405" y1="2.54" x2="73.024240625" y2="26.2394375" width="0" layer="19" extent="1-1"/>
+<contactref element="PWMH" pad="4"/>
+<wire x1="67.945" y1="2.54" x2="73.024240625" y2="26.2394375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN7">
 <contactref element="IC2" pad="13"/>
