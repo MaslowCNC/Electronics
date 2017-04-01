@@ -1792,21 +1792,14 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
 <rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
 <rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
-<smd name="HEAT" x="0" y="0" dx="3" dy="14" layer="1" rot="R90"/>
-<pad name="HEAT6" x="6.35" y="0" drill="0.8"/>
-<pad name="HEAT5" x="3.81" y="0" drill="0.8"/>
-<pad name="HEAT4" x="1.27" y="0" drill="0.8"/>
-<pad name="HEAT3" x="-1.27" y="0" drill="0.8"/>
-<pad name="HEAT2" x="-3.81" y="0" drill="0.8"/>
-<pad name="HEAT1" x="-6.35" y="0" drill="0.8"/>
 </package>
 </packages>
 <symbols>
 <symbol name="L298">
 <wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
 <text x="-12.7" y="19.05" size="1.778" layer="95">&gt;NAME</text>
 <text x="-20.32" y="-10.16" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="SEN_B" x="15.24" y="7.62" length="short" direction="in" rot="R180"/>
@@ -1824,13 +1817,6 @@ http://www.st.com&lt;p&gt;
 <pin name="OUT2" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="OUT1" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
 <pin name="SEN_A" x="15.24" y="10.16" length="short" direction="in" rot="R180"/>
-<pin name="HEAT" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="HEAT2" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="HEAT3" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="HEAT1" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="HEAT4" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="HEAT5" x="15.24" y="-22.86" length="middle" rot="R180"/>
-<pin name="HEAT6" x="15.24" y="-25.4" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1872,13 +1858,6 @@ http://www.st.com&lt;p&gt;
 <connect gate="L298" pin="ENABLE_A" pad="8"/>
 <connect gate="L298" pin="ENABLE_B" pad="14"/>
 <connect gate="L298" pin="GND" pad="1"/>
-<connect gate="L298" pin="HEAT" pad="HEAT"/>
-<connect gate="L298" pin="HEAT1" pad="HEAT1"/>
-<connect gate="L298" pin="HEAT2" pad="HEAT2"/>
-<connect gate="L298" pin="HEAT3" pad="HEAT3"/>
-<connect gate="L298" pin="HEAT4" pad="HEAT4"/>
-<connect gate="L298" pin="HEAT5" pad="HEAT5"/>
-<connect gate="L298" pin="HEAT6" pad="HEAT6"/>
 <connect gate="L298" pin="INPUT1" pad="7"/>
 <connect gate="L298" pin="INPUT2" pad="9"/>
 <connect gate="L298" pin="INPUT3" pad="13"/>

@@ -4784,13 +4784,6 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
 <rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
 <rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
-<smd name="HEAT" x="0" y="0" dx="3" dy="14" layer="1" rot="R90"/>
-<pad name="HEAT6" x="6.35" y="0" drill="0.8"/>
-<pad name="HEAT5" x="3.81" y="0" drill="0.8"/>
-<pad name="HEAT4" x="1.27" y="0" drill="0.8"/>
-<pad name="HEAT3" x="-1.27" y="0" drill="0.8"/>
-<pad name="HEAT2" x="-3.81" y="0" drill="0.8"/>
-<pad name="HEAT1" x="-6.35" y="0" drill="0.8"/>
 </package>
 </packages>
 </library>
@@ -5888,11 +5881,6 @@ design rules under a new name.</description>
 <contactref element="COMMUNICATION1" pad="2"/>
 <wire x1="32.1065125" y1="42.85506875" x2="36.195" y2="46.94355625" width="0.6096" layer="16"/>
 <wire x1="36.195" y1="46.94355625" x2="36.195" y2="50.8" width="0.6096" layer="16"/>
-</signal>
-<signal name="N$3" class="2">
-<contactref element="IC2" pad="HEAT"/>
-<contactref element="IC2" pad="HEAT1"/>
-<wire x1="73.802409375" y1="28.83225" x2="73.802409375" y2="35.18225" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
