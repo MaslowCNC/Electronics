@@ -1,9 +1,10 @@
 PCB BOM
 
-XH-Series Connectors: 455-2271-ND
-Power Jack:           CP-002A-ND
-Flyback Diodes:       MRA4004T3GOSCT-ND
-.1uF Filter Caps:     311-1361-1-ND
-H-Bridge:             497-3624-1-ND 
-Indicator LED:        475-1410-1-ND 
-Current Limiting R:   RMCF0805JT270RCT-ND
+XH-Series Connectors: 455-2271-ND             3        J1
+Power Jack:           CP-002A-ND              1        J2
+Flyback Diodes:       MRA4004T3GOSCT-ND       12       D1-12
+.1uF Filter Caps:     311-1361-1-ND           4        C1-4
+H-Bridge:             497-3624-1-ND           2        IC-1,2
+Indicator LED:        475-1410-1-ND           2        LED 1-2
+Current Limiting R1:  RMCF0805JT270RCT-ND     1        R1
+Current Limiting R2:  P330ADCT-ND             1        R2
