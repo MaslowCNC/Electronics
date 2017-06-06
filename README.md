@@ -8,4 +8,4 @@ Layout
 
 Schematic
 
-![Schematic](/PowerDistributionBoardSchematic.JPG)
+![Schematic](/PowerDistributionBoardSchematic.PNG)
