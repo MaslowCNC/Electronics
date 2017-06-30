@@ -1,13 +1,18 @@
-PCB BOM
+PCB Build of Materials (BOM)
 
-XH-Series Connectors: 455-2271-ND             3        J1-3
-Power Jack:           CP-002A-ND              1        J4
-1x8 .1" headers:      732-5321-ND             4        J5-8
-2x2 .1" headers:      952-2119-ND             2        J9,10
-Flyback Diodes:       MRA4004T3GOSCT-ND       12       D1-12
-.1uF Filter Caps:     311-1361-1-ND           4        C1-4
-H-Bridge:             497-3624-1-ND           2        IC-1,2
-Indicator LED:        475-1410-1-ND           2        LED 1-2
-Current Limiting R1:  RMCF0805JT270RCT-ND     1        R1
-Current Limiting R2:  P330ADCT-ND             1        R2
-25x25mm heatsink      Custom                  2        N/A
+Part Name                Notes                 PartNumber              Source        QTY      Desiganator
+XH-Series Connectors     Male Connector        455-2271-ND             DigiKey       3        J1-3
+Power Jack               2x5.5MM DC            CP-002A-ND              DigiKey       1        J4
+1x8 .1" headers          2.54mm Pitch          732-5321-ND             DigiKey       4        J5-8
+2x2 .1" headers          2.54mm Pitch          952-2119-ND             DigiKey       2        J9,10
+Flyback Diodes           400V 1A               GS1G-LTPMSCT-ND         DigiKey       12       D1-12
+.1uF Filter Caps         Cer 0.1UF 50V         311-1361-1-ND           DigiKey       4        C1-4
+H-Bridge PCB             IC Bridge Driver      497-3624-1-ND           DigiKey       2        IC-1,2
+Indicator LED            Grn Dif 0805 SMD      475-1410-1-ND           DigiKey       2        LED 1-2
+Current Limiting R1      270 OHM 5% 1/8W 0805  RMCF0805JT270RCT-ND     DigiKey       1        R1
+Current Limiting R2      330 OHM 5% 1/2W 0805  P330ADCT-ND             DigiKey       1        R2
+25x25mm Heatsink                               Custom                  Custom        2        N/A
+PCB Board                                      Custom                  Custom        1        N/A
+Motor Connector Housing  Housing 2.5MM XH 6POS 455-2218-ND             DigiKey       4        N/A
+Motor Connector Contacts Crimp XH 22-28AWG     455-1135-1-ND           DigiKey       12       N/A
+Power Supply                                                                         1        N/A
