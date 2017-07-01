@@ -15,4 +15,7 @@ Current Limiting R2      330 OHM 5% 1/2W 0805  P330ADCT-ND             DigiKey  
 PCB Board                                      Custom                  Custom        1        N/A
 Motor Connector Housing  Housing 2.5MM XH 6POS 455-2218-ND             DigiKey       4        N/A
 Motor Connector Contacts Crimp XH 22-28AWG     455-1135-1-ND           DigiKey       12       N/A
-Power Supply                                                                         1        N/A
+Power Supply             12V DC 5A 2x5.5mm     96PSA-A60W12V1-1-ND     DigiKey       1        N/A
+Power Cable              For US Markets        Q102-ND                 DigiKey       1        N/A
+Arduino Mega 2560                              1050-1018-ND            DigiKey       1        N/A
+USB Cable                                      AE1462-ND               DigiKey       1        N/A
