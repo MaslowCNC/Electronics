@@ -4,7 +4,7 @@ Maslow PCBs
 
 Layout
 
-![Layout](/PowerDistributionBoardLayout.JPG)
+![Layout](/PowerDistributionBoardLayout.PNG)
 
 Schematic
 
