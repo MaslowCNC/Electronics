@@ -3726,13 +3726,6 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="83.82" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="2">
-<segment>
-<pinref part="IC2" gate="L298" pin="HEAT1"/>
-<pinref part="IC2" gate="L298" pin="HEAT"/>
-<wire x1="190.5" y1="91.44" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
