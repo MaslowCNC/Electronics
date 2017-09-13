@@ -3654,9 +3654,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION1" gate="A" pin="6"/>
-<wire x1="76.2" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
-<label x="83.82" y="180.34" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION1" gate="A" pin="5"/>
+<wire x1="76.2" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<label x="83.82" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN8" class="0">
@@ -3666,9 +3666,9 @@ GND-GND-GND-5V -&gt; 0001</text>
 <label x="149.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMMUNICATION1" gate="A" pin="5"/>
-<wire x1="76.2" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
-<label x="83.82" y="177.8" size="1.778" layer="95"/>
+<pinref part="COMMUNICATION1" gate="A" pin="6"/>
+<wire x1="76.2" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
+<label x="83.82" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCD2" class="0">
