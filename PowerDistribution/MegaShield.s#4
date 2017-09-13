@@ -3552,11 +3552,6 @@ are associated with Timer1</text>
 <wire x1="160.02" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="PWMH" gate="A" pin="6"/>
-<wire x1="58.42" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
-<label x="48.26" y="210.82" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IN5" class="0">
 <segment>
@@ -3638,7 +3633,6 @@ are associated with Timer1</text>
 <approved hash="113,1,58.6994,146.05,PWML,,,,,"/>
 <approved hash="113,1,58.6571,205.609,PWMH,,,,,"/>
 <approved hash="113,1,58.6994,173.99,COMMUNICATION,,,,,"/>
-<approved hash="113,1,190.822,219.71,USB,,,,,"/>
 <approved hash="113,1,258.403,232.605,J2,,,,,"/>
 <approved hash="113,1,258.403,214.825,J3,,,,,"/>
 <approved hash="113,1,281.263,214.825,J4,,,,,"/>
