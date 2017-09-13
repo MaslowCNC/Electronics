@@ -2834,6 +2834,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="35.56" y="223.52" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
 The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001</text>
+<text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
+are associated with Timer1</text>
+<text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
+are associated with Timer1</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
