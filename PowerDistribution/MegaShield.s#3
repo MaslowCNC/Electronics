@@ -2834,6 +2834,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="35.56" y="223.52" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
 The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001</text>
+<text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
+are associated with Timer1</text>
+<text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
+are associated with Timer1</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
@@ -3584,36 +3588,12 @@ GND-GND-GND-5V -&gt; 0001</text>
 <wire x1="160.02" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="149.86" y="99.06" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="COMMUNICATION1" gate="A" pin="5"/>
-<wire x1="76.2" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
-<label x="83.82" y="177.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IN8" class="0">
 <segment>
 <pinref part="IC2" gate="L298" pin="INPUT4"/>
 <wire x1="160.02" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="149.86" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="COMMUNICATION1" gate="A" pin="6"/>
-<wire x1="76.2" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
-<label x="83.82" y="180.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INCD2" class="0">
-<segment>
-<pinref part="COMMUNICATION1" gate="A" pin="7"/>
-<wire x1="76.2" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
-<label x="83.82" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INCD1" class="0">
-<segment>
-<pinref part="COMMUNICATION1" gate="A" pin="8"/>
-<wire x1="76.2" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<label x="83.82" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUX5" class="0">
