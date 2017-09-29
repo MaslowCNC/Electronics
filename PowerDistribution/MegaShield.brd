@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
@@ -5455,13 +5455,10 @@ design rules under a new name.</description>
 <via x="90.353925" y="24.631621875" extent="1-16" drill="0.6"/>
 <wire x1="90.353925" y1="24.631621875" x2="89.58405625" y2="24.631621875" width="1.6764" layer="16"/>
 <wire x1="89.58405625" y1="24.631621875" x2="89.465490625" y2="24.7501875" width="1.6764" layer="16"/>
-<wire x1="26.705865625" y1="33.27725" x2="26.705865625" y2="34.54725" width="1.4224" layer="1"/>
-<wire x1="26.705865625" y1="33.27725" x2="26.705865625" y2="35.251134375" width="1.4224" layer="1"/>
 <wire x1="26.705865625" y1="35.251134375" x2="25.5875625" y2="36.3694375" width="1.4224" layer="1"/>
 <via x="25.5875625" y="36.3694375" extent="1-16" drill="0.6"/>
 <wire x1="25.5875625" y1="36.3694375" x2="25.883328125" y2="36.3694375" width="1.4224" layer="16"/>
 <wire x1="25.883328125" y1="36.3694375" x2="26.32794375" y2="35.924821875" width="1.4224" layer="16"/>
-<wire x1="80.002409375" y1="33.27725" x2="80.002409375" y2="34.54725" width="1.4224" layer="1"/>
 <wire x1="80.002409375" y1="34.54725" x2="80.002409375" y2="35.429903125" width="1.4224" layer="1"/>
 <wire x1="80.002409375" y1="35.429903125" x2="79.192509375" y2="36.239803125" width="1.4224" layer="1"/>
 <via x="79.192509375" y="36.239803125" extent="1-16" drill="0.6"/>
@@ -5474,6 +5471,15 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="3"/>
 <contactref element="JP4" pad="4"/>
 <contactref element="JP3" pad="4"/>
+<wire x1="26.705865625" y1="35.251134375" x2="26.713396875" y2="35.251134375" width="1.4224" layer="1"/>
+<wire x1="26.713396875" y1="35.251134375" x2="26.713396875" y2="33.792571875" width="1.4224" layer="1"/>
+<wire x1="26.705865625" y1="35.251134375" x2="26.705865625" y2="34.54725" width="0.6096" layer="1"/>
+<wire x1="26.705865625" y1="33.27725" x2="26.713396875" y2="33.27725" width="0.6096" layer="1"/>
+<wire x1="26.713396875" y1="33.27725" x2="26.713396875" y2="33.792571875" width="0.6096" layer="1"/>
+<wire x1="80.002409375" y1="34.54725" x2="79.983134375" y2="34.54725" width="1.4224" layer="1"/>
+<wire x1="79.983134375" y1="34.54725" x2="79.983134375" y2="33.8211375" width="1.4224" layer="1"/>
+<wire x1="79.983134375" y1="33.8211375" x2="80.002409375" y2="33.8211375" width="0.6096" layer="1"/>
+<wire x1="80.002409375" y1="33.8211375" x2="80.002409375" y2="33.27725" width="0.6096" layer="1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
