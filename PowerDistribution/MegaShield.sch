@@ -2837,20 +2837,20 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-40.64" y="231.14" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
 The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001
-Some of the early numbering was off, so the numbers go:
-v1.0 -&gt; 0011
+The numbers go:
+v1.0 -&gt; 0001
 v1.1 -&gt; 0010
-v1.2 -&gt; 0001</text>
+v1.2 -&gt; 0011</text>
 <text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
 <text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
-<text x="53.34" y="236.22" size="1.778" layer="91">0</text>
-<text x="60.96" y="236.22" size="1.778" layer="91">0</text>
-<text x="86.36" y="236.22" size="1.778" layer="91">0</text>
-<text x="93.98" y="236.22" size="1.778" layer="91">1</text>
-<text x="53.34" y="251.46" size="1.778" layer="91">Next to LED</text>
-<text x="83.82" y="251.46" size="1.778" layer="91">Bottom Left corner</text>
+<text x="-38.1" y="208.28" size="1.778" layer="91">0</text>
+<text x="-33.02" y="208.28" size="1.778" layer="91">0</text>
+<text x="-17.78" y="208.28" size="1.778" layer="91">0</text>
+<text x="-10.16" y="208.28" size="1.778" layer="91">1</text>
+<text x="-43.18" y="213.36" size="1.778" layer="91" rot="R90">Next to LED</text>
+<text x="-2.54" y="210.82" size="1.778" layer="91" rot="R270">Bottom Left corner</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
@@ -2896,8 +2896,8 @@ are associated with Timer1</text>
 <instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP3" gate="A" x="91.44" y="241.3"/>
-<instance part="JP4" gate="A" x="58.42" y="241.3"/>
+<instance part="JP3" gate="A" x="-12.7" y="200.66" rot="R90"/>
+<instance part="JP4" gate="A" x="-33.02" y="220.98" rot="R90"/>
 <instance part="R2" gate="G$1" x="210.82" y="213.36"/>
 <instance part="12VPOWER" gate="G$1" x="200.66" y="213.36" rot="R270"/>
 </instances>
@@ -3049,18 +3049,6 @@ are associated with Timer1</text>
 <label x="287.02" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="53.34" y1="243.84" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="243.84" x2="68.58" y2="243.84" width="0.1524" layer="91"/>
-<label x="68.58" y="243.84" size="1.778" layer="95"/>
-<junction x="60.96" y="243.84"/>
-<pinref part="JP4" gate="A" pin="3"/>
-<pinref part="JP4" gate="A" pin="4"/>
-<wire x1="53.34" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="243.84" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="12VPOWER" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="213.36" x2="190.5" y2="213.36" width="0.1524" layer="91"/>
 <label x="185.42" y="213.36" size="1.778" layer="95"/>
@@ -3077,9 +3065,15 @@ are associated with Timer1</text>
 <label x="195.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="76.2" y="241.3" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="81.28" y1="241.3" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="-35.56" y1="223.52" x2="-33.02" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="223.52" x2="-27.94" y2="223.52" width="0.1524" layer="91"/>
+<label x="-27.94" y="223.52" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="-35.56" y1="215.9" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="223.52" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -3223,13 +3217,14 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="86.36" y1="243.84" x2="78.74" y2="243.84" width="0.1524" layer="91"/>
-<label x="76.2" y="243.84" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="-15.24" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="195.58" x2="-7.62" y2="195.58" width="0.1524" layer="91"/>
+<label x="-7.62" y="195.58" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="86.36" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
-<junction x="86.36" y="243.84"/>
 <pinref part="JP3" gate="A" pin="4"/>
-<wire x1="93.98" y1="241.3" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="203.2" x2="-12.7" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="203.2" x2="-15.24" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
