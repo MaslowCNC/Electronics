@@ -2839,16 +2839,18 @@ The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001
 Some of the early numbering was off, so the numbers go:
 v1.0 -&gt; 0011
-v1.1 -&gt; 0001
-v1.2 -&gt; 0010</text>
+v1.1 -&gt; 0010
+v1.2 -&gt; 0001</text>
 <text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
 <text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
 <text x="53.34" y="236.22" size="1.778" layer="91">0</text>
 <text x="60.96" y="236.22" size="1.778" layer="91">0</text>
-<text x="86.36" y="236.22" size="1.778" layer="91">1</text>
-<text x="93.98" y="236.22" size="1.778" layer="91">0</text>
+<text x="86.36" y="236.22" size="1.778" layer="91">0</text>
+<text x="93.98" y="236.22" size="1.778" layer="91">1</text>
+<text x="53.34" y="251.46" size="1.778" layer="91">Next to LED</text>
+<text x="83.82" y="251.46" size="1.778" layer="91">Bottom Left corner</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
@@ -3075,9 +3077,9 @@ are associated with Timer1</text>
 <label x="195.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="93.98" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
-<label x="99.06" y="241.3" size="1.778" layer="95"/>
+<label x="76.2" y="241.3" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="81.28" y1="241.3" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
@@ -3226,8 +3228,8 @@ are associated with Timer1</text>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="86.36" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
 <junction x="86.36" y="243.84"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="86.36" y1="243.84" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="93.98" y1="241.3" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">

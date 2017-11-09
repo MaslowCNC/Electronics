@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
@@ -4541,7 +4541,7 @@
 <text x="34.170946875" y="13.309165625" size="1.778" layer="21" ratio="15" rot="R90">AUX4</text>
 <text x="25.3417125" y="43.578525" size="1.778" layer="21" ratio="15" rot="R180">AUX6</text>
 <text x="25.3087625" y="45.95069375" size="1.778" layer="21" ratio="15" rot="R180">AUX5</text>
-<text x="7.110396875" y="6.82186875" size="1.778" layer="21">V1.2</text>
+<text x="7.110396875" y="6.82186875" size="1.778" layer="21">V1.2b</text>
 <text x="82.922275" y="15.50506875" size="1.778" layer="21">12V Power</text>
 <text x="5.182665625" y="38.503584375" size="2.54" layer="21" ratio="20">MP1</text>
 <text x="58.17869375" y="39.325278125" size="2.54" layer="21" ratio="20" rot="R90">MP2</text>
@@ -5470,7 +5470,6 @@ design rules under a new name.</description>
 <wire x1="5.75844375" y1="45.67815" x2="5.75844375" y2="42.95899375" width="0.8128" layer="1"/>
 <contactref element="JP4" pad="3"/>
 <contactref element="JP4" pad="4"/>
-<contactref element="JP3" pad="4"/>
 <wire x1="26.705865625" y1="35.251134375" x2="26.713396875" y2="35.251134375" width="1.4224" layer="1"/>
 <wire x1="26.713396875" y1="35.251134375" x2="26.713396875" y2="33.792571875" width="1.4224" layer="1"/>
 <wire x1="26.705865625" y1="35.251134375" x2="26.705865625" y2="34.54725" width="0.6096" layer="1"/>
@@ -5480,6 +5479,7 @@ design rules under a new name.</description>
 <wire x1="79.983134375" y1="34.54725" x2="79.983134375" y2="33.8211375" width="1.4224" layer="1"/>
 <wire x1="79.983134375" y1="33.8211375" x2="80.002409375" y2="33.8211375" width="0.6096" layer="1"/>
 <wire x1="80.002409375" y1="33.8211375" x2="80.002409375" y2="33.27725" width="0.6096" layer="1"/>
+<contactref element="JP3" pad="3"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
@@ -5627,7 +5627,6 @@ design rules under a new name.</description>
 <wire x1="29.446696875" y1="21.934296875" x2="29.353825" y2="21.841425" width="0.4064" layer="16"/>
 <wire x1="25.775140625" y1="8.382" x2="18.973859375" y2="8.382" width="0.8128" layer="1"/>
 <wire x1="18.973859375" y1="8.382" x2="18.374653125" y2="8.98120625" width="0.8128" layer="1"/>
-<contactref element="JP3" pad="3"/>
 <wire x1="12.015625" y1="8.8392" x2="18.374653125" y2="8.8392" width="0.8128" layer="1"/>
 <wire x1="5.7161125" y1="2.5396875" x2="5.7161125" y2="5.0796875" width="0.8128" layer="1"/>
 <wire x1="5.7161125" y1="13.45045625" x2="5.7161125" y2="7.514284375" width="1.4224" layer="1"/>
@@ -5636,7 +5635,8 @@ design rules under a new name.</description>
 <wire x1="11.97155625" y1="8.79513125" x2="7.89244375" y2="8.79513125" width="0.8128" layer="1"/>
 <wire x1="7.89244375" y1="8.79513125" x2="6.611596875" y2="7.514284375" width="0.8128" layer="1"/>
 <wire x1="6.611596875" y1="7.514284375" x2="5.7161125" y2="7.514284375" width="0.8128" layer="1"/>
-<wire x1="5.7161125" y1="2.5396875" x2="8.2561125" y2="2.5396875" width="0.6096" layer="1"/>
+<contactref element="JP3" pad="4"/>
+<wire x1="5.7161125" y1="5.0796875" x2="8.2561125" y2="5.0796875" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1">
 </signal>

@@ -3053,11 +3053,6 @@ are associated with Timer1</text>
 <wire x1="60.96" y1="243.84" x2="68.58" y2="243.84" width="0.1524" layer="91"/>
 <label x="68.58" y="243.84" size="1.778" layer="95"/>
 <junction x="60.96" y="243.84"/>
-<pinref part="JP4" gate="A" pin="3"/>
-<pinref part="JP4" gate="A" pin="4"/>
-<wire x1="53.34" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="241.3" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
-<junction x="60.96" y="241.3"/>
 </segment>
 <segment>
 <pinref part="12VPOWER" gate="G$1" pin="C"/>
@@ -3074,11 +3069,6 @@ are associated with Timer1</text>
 <wire x1="190.5" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="149.86" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
 <label x="195.58" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="93.98" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
-<label x="99.06" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
