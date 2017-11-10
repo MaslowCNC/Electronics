@@ -5481,8 +5481,9 @@ design rules under a new name.</description>
 <wire x1="8.31734375" y1="45.8039625" x2="8.38846875" y2="45.7328375" width="1.4224" layer="1"/>
 <contactref element="JP4" pad="1"/>
 <contactref element="JP4" pad="3"/>
-<wire x1="5.717575" y1="43.17901875" x2="8.257575" y2="43.17901875" width="0" layer="19" extent="1-1"/>
-<wire x1="8.38846875" y1="45.7328375" x2="8.257575" y2="43.17901875" width="0" layer="19" extent="1-1"/>
+<wire x1="8.38846875" y1="45.7328375" x2="8.38846875" y2="43.3099125" width="0.8128" layer="1"/>
+<wire x1="8.38846875" y1="43.3099125" x2="8.257575" y2="43.17901875" width="0.8128" layer="1"/>
+<wire x1="8.257575" y1="43.17901875" x2="5.717575" y2="43.17901875" width="0.8128" layer="1"/>
 </signal>
 <signal name="INCA1">
 <contactref element="U$12" pad="P$6"/>
