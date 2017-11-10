@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="0.000000123031" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4547,7 +4547,7 @@
 <text x="58.17869375" y="39.325278125" size="2.54" layer="21" ratio="20" rot="R90">MP2</text>
 <text x="64.993890625" y="39.30844375" size="2.54" layer="21" ratio="20" rot="R90">MP3</text>
 <text x="6.35" y="35.56" size="1.778" layer="21">1</text>
-<text x="44.45" y="35.56" size="1.778" layer="21">1</text>
+<text x="55.076659375" y="36.09248125" size="1.778" layer="21">1</text>
 <text x="51.308" y="35.56" size="1.778" layer="21">1</text>
 </plain>
 <libraries>
