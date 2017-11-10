@@ -2838,9 +2838,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001
 Some of the early numbering was off, so the numbers go:
-v1.0 -&gt; 0011
+v1.0 -&gt; 0001
 v1.1 -&gt; 0010
-v1.2 -&gt; 0001</text>
+v1.2 -&gt; 0011</text>
 <text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
 <text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
@@ -3217,6 +3217,10 @@ are associated with Timer1</text>
 <wire x1="-15.24" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="195.58" x2="-7.62" y2="195.58" width="0.1524" layer="91"/>
 <label x="-7.62" y="195.58" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="-15.24" y1="203.2" x2="-12.7" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="203.2" x2="-15.24" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">

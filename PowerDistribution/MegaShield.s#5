@@ -2896,7 +2896,7 @@ are associated with Timer1</text>
 <instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP3" gate="A" x="83.82" y="226.06" rot="R180"/>
+<instance part="JP3" gate="A" x="86.36" y="223.52" rot="R90"/>
 <instance part="JP4" gate="A" x="66.04" y="243.84" rot="R90"/>
 <instance part="R2" gate="G$1" x="210.82" y="213.36"/>
 <instance part="12VPOWER" gate="G$1" x="200.66" y="213.36" rot="R270"/>
@@ -3210,13 +3210,6 @@ are associated with Timer1</text>
 <pinref part="J7" gate="J$1" pin="2"/>
 <wire x1="284.48" y1="198.12" x2="287.02" y2="198.12" width="0.1524" layer="91"/>
 <label x="287.02" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="88.9" y1="223.52" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
-<label x="96.52" y="220.98" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="88.9" y1="223.52" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -3630,6 +3623,13 @@ are associated with Timer1</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="12VPOWER" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="213.36" x2="205.74" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="83.82" y1="218.44" x2="86.36" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

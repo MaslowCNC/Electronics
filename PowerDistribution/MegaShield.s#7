@@ -3627,9 +3627,9 @@ are associated with Timer1</text>
 </net>
 <net name="N$4" class="0">
 <segment>
+<pinref part="JP4" gate="A" pin="2"/>
 <pinref part="JP4" gate="A" pin="4"/>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="60.96" y1="241.3" x2="68.58" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="238.76" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

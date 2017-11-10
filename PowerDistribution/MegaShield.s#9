@@ -3208,6 +3208,8 @@ are associated with Timer1</text>
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="93.98" y1="241.3" x2="101.6" y2="241.3" width="0.1524" layer="91"/>
 <label x="101.6" y="238.76" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="93.98" y1="241.3" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">

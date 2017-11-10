@@ -3076,7 +3076,7 @@ are associated with Timer1</text>
 <wire x1="-33.02" y1="223.52" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INCA1" class="0">
+<net name="INC1A" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$6"/>
 <wire x1="322.58" y1="236.22" x2="317.5" y2="236.22" width="0.1524" layer="91"/>
@@ -3088,7 +3088,7 @@ are associated with Timer1</text>
 <label x="43.18" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCA2" class="0">
+<net name="INC1B" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$5"/>
 <wire x1="322.58" y1="233.68" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
@@ -3100,7 +3100,7 @@ are associated with Timer1</text>
 <label x="43.18" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCB1" class="0">
+<net name="INC2A" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$6"/>
 <wire x1="322.58" y1="213.36" x2="317.5" y2="213.36" width="0.1524" layer="91"/>
@@ -3112,19 +3112,7 @@ are associated with Timer1</text>
 <label x="43.18" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCB2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$5"/>
-<wire x1="322.58" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
-<label x="312.42" y="210.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="COMMUNICATION" gate="A" pin="2"/>
-<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="43.18" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INCC1" class="0">
+<net name="INC3A" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$6"/>
 <wire x1="350.52" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91"/>
@@ -3136,7 +3124,7 @@ are associated with Timer1</text>
 <label x="43.18" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCC2" class="0">
+<net name="INC3B" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$5"/>
 <wire x1="350.52" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
@@ -3638,6 +3626,18 @@ are associated with Timer1</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="12VPOWER" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="213.36" x2="205.74" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="INC2B" class="0">
+<segment>
+<pinref part="COMMUNICATION" gate="A" pin="2"/>
+<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
+<label x="43.18" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="322.58" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
+<label x="312.42" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

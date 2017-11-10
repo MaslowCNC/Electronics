@@ -3070,6 +3070,10 @@ are associated with Timer1</text>
 <wire x1="-35.56" y1="223.52" x2="-33.02" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="223.52" x2="-27.94" y2="223.52" width="0.1524" layer="91"/>
 <label x="-27.94" y="223.52" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="-35.56" y1="215.9" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="223.52" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INCA1" class="0">
