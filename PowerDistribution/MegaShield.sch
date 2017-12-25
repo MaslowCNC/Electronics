@@ -1792,6 +1792,7 @@ http://www.st.com&lt;p&gt;
 <rectangle x1="-3.4201" y1="5.7001" x2="-2.9299" y2="7.22" layer="51"/>
 <rectangle x1="-4.6901" y1="5.7001" x2="-4.1999" y2="7.22" layer="51"/>
 <rectangle x1="-5.9601" y1="5.7001" x2="-5.4699" y2="7.22" layer="51"/>
+<smd name="HEAT" x="0" y="0" dx="10" dy="5" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -1817,6 +1818,7 @@ http://www.st.com&lt;p&gt;
 <pin name="OUT2" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="OUT1" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
 <pin name="SEN_A" x="15.24" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="HEAT" x="17.78" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1858,6 +1860,7 @@ http://www.st.com&lt;p&gt;
 <connect gate="L298" pin="ENABLE_A" pad="8"/>
 <connect gate="L298" pin="ENABLE_B" pad="14"/>
 <connect gate="L298" pin="GND" pad="1"/>
+<connect gate="L298" pin="HEAT" pad="HEAT"/>
 <connect gate="L298" pin="INPUT1" pad="7"/>
 <connect gate="L298" pin="INPUT2" pad="9"/>
 <connect gate="L298" pin="INPUT3" pad="13"/>
@@ -2831,13 +2834,23 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="248.92" y="241.3" size="6.4516" layer="91">AUX Ports</text>
 <text x="309.88" y="241.3" size="6.4516" layer="91">Motor Con</text>
 <text x="355.6" y="195.58" size="1.778" layer="91">Motor 3</text>
-<text x="35.56" y="223.52" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
+<text x="-40.64" y="231.14" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
 The software can read these pins and detect the shield version.
-GND-GND-GND-5V -&gt; 0001</text>
+GND-GND-GND-5V -&gt; 0001
+The numbers go:
+v1.0 -&gt; 0001
+v1.1 -&gt; 0010
+v1.2 -&gt; 0011</text>
 <text x="68.58" y="205.74" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
 <text x="38.1" y="127" size="1.778" layer="91">NOTE: Pins 11,12,13 on the Mega 
 are associated with Timer1</text>
+<text x="-38.1" y="208.28" size="1.778" layer="91">0</text>
+<text x="-33.02" y="208.28" size="1.778" layer="91">0</text>
+<text x="-17.78" y="208.28" size="1.778" layer="91">0</text>
+<text x="-10.16" y="208.28" size="1.778" layer="91">1</text>
+<text x="-43.18" y="213.36" size="1.778" layer="91" rot="R90">Next to LED</text>
+<text x="-2.54" y="210.82" size="1.778" layer="91" rot="R270">Bottom Left corner</text>
 </plain>
 <instances>
 <instance part="PWML" gate="A" x="60.96" y="147.32" smashed="yes" rot="MR180">
@@ -2883,8 +2896,8 @@ are associated with Timer1</text>
 <instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="72.39" y="190.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP3" gate="A" x="91.44" y="241.3"/>
-<instance part="JP4" gate="A" x="58.42" y="241.3"/>
+<instance part="JP3" gate="A" x="-12.7" y="200.66" rot="R90"/>
+<instance part="JP4" gate="A" x="-33.02" y="220.98" rot="R90"/>
 <instance part="R2" gate="G$1" x="210.82" y="213.36"/>
 <instance part="12VPOWER" gate="G$1" x="200.66" y="213.36" rot="R270"/>
 </instances>
@@ -3036,30 +3049,34 @@ are associated with Timer1</text>
 <label x="287.02" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="53.34" y1="243.84" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="243.84" x2="68.58" y2="243.84" width="0.1524" layer="91"/>
-<label x="68.58" y="243.84" size="1.778" layer="95"/>
-<junction x="60.96" y="243.84"/>
-<pinref part="JP4" gate="A" pin="3"/>
-<pinref part="JP4" gate="A" pin="4"/>
-<wire x1="53.34" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="241.3" x2="60.96" y2="243.84" width="0.1524" layer="91"/>
-<junction x="60.96" y="241.3"/>
-</segment>
-<segment>
-<label x="86.36" y="236.22" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="86.36" y1="236.22" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="12VPOWER" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="213.36" x2="190.5" y2="213.36" width="0.1524" layer="91"/>
 <label x="185.42" y="213.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="L298" pin="HEAT"/>
+<wire x1="193.04" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="198.12" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="L298" pin="HEAT"/>
+<wire x1="190.5" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="149.86" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="195.58" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="-35.56" y1="223.52" x2="-33.02" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="223.52" x2="-27.94" y2="223.52" width="0.1524" layer="91"/>
+<label x="-27.94" y="223.52" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="-35.56" y1="215.9" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="223.52" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="INCA1" class="0">
+<net name="INC1A" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$6"/>
 <wire x1="322.58" y1="236.22" x2="317.5" y2="236.22" width="0.1524" layer="91"/>
@@ -3071,7 +3088,7 @@ are associated with Timer1</text>
 <label x="43.18" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCA2" class="0">
+<net name="INC1B" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$5"/>
 <wire x1="322.58" y1="233.68" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
@@ -3083,7 +3100,7 @@ are associated with Timer1</text>
 <label x="43.18" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCB1" class="0">
+<net name="INC2A" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$6"/>
 <wire x1="322.58" y1="213.36" x2="317.5" y2="213.36" width="0.1524" layer="91"/>
@@ -3095,19 +3112,7 @@ are associated with Timer1</text>
 <label x="43.18" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCB2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$5"/>
-<wire x1="322.58" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
-<label x="312.42" y="210.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="COMMUNICATION" gate="A" pin="2"/>
-<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="43.18" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INCC1" class="0">
+<net name="INC3A" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$6"/>
 <wire x1="350.52" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91"/>
@@ -3119,7 +3124,7 @@ are associated with Timer1</text>
 <label x="43.18" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INCC2" class="0">
+<net name="INC3B" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$5"/>
 <wire x1="350.52" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
@@ -3200,13 +3205,14 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="86.36" y1="243.84" x2="78.74" y2="243.84" width="0.1524" layer="91"/>
-<label x="76.2" y="243.84" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="-15.24" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="195.58" x2="-7.62" y2="195.58" width="0.1524" layer="91"/>
+<label x="-7.62" y="195.58" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="86.36" y1="243.84" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
-<junction x="86.36" y="243.84"/>
 <pinref part="JP3" gate="A" pin="4"/>
-<wire x1="93.98" y1="243.84" x2="93.98" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="203.2" x2="-12.7" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="203.2" x2="-15.24" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -3276,7 +3282,7 @@ are associated with Timer1</text>
 <segment>
 <pinref part="PWML" gate="A" pin="6"/>
 <wire x1="58.42" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<label x="45.72" y="149.86" size="1.778" layer="95"/>
+<label x="43.18" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -3286,9 +3292,9 @@ are associated with Timer1</text>
 <label x="147.32" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="7"/>
-<wire x1="58.42" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<label x="45.72" y="152.4" size="1.778" layer="95"/>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
 </segment>
 </net>
 <net name="IN2" class="0">
@@ -3298,9 +3304,9 @@ are associated with Timer1</text>
 <label x="147.32" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="5"/>
-<wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.778" layer="95" ratio="7"/>
+<pinref part="PWML" gate="A" pin="7"/>
+<wire x1="58.42" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<label x="43.18" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENB" class="0">
@@ -3322,9 +3328,9 @@ are associated with Timer1</text>
 <label x="147.32" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="2"/>
-<wire x1="58.42" y1="200.66" x2="53.34" y2="200.66" width="0.1524" layer="91"/>
-<label x="48.26" y="200.66" size="1.778" layer="95"/>
+<pinref part="PWML" gate="A" pin="8"/>
+<wire x1="58.42" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<label x="43.18" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN4" class="0">
@@ -3334,9 +3340,9 @@ are associated with Timer1</text>
 <label x="147.32" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWML" gate="A" pin="8"/>
-<wire x1="58.42" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
-<label x="45.72" y="154.94" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="2"/>
+<wire x1="58.42" y1="200.66" x2="53.34" y2="200.66" width="0.1524" layer="91"/>
+<label x="48.26" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3541,9 +3547,9 @@ are associated with Timer1</text>
 <label x="149.86" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="5"/>
-<wire x1="58.42" y1="208.28" x2="53.34" y2="208.28" width="0.1524" layer="91"/>
-<label x="48.26" y="208.28" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="3"/>
+<wire x1="58.42" y1="203.2" x2="53.34" y2="203.2" width="0.1524" layer="91"/>
+<label x="48.26" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="END" class="0">
@@ -3551,11 +3557,6 @@ are associated with Timer1</text>
 <pinref part="IC2" gate="L298" pin="ENABLE_B"/>
 <wire x1="160.02" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="149.86" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PWMH" gate="A" pin="6"/>
-<wire x1="58.42" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
-<label x="48.26" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN5" class="0">
@@ -3565,9 +3566,9 @@ are associated with Timer1</text>
 <label x="149.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="3"/>
-<wire x1="58.42" y1="203.2" x2="53.34" y2="203.2" width="0.1524" layer="91"/>
-<label x="48.26" y="203.2" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="4"/>
+<wire x1="58.42" y1="205.74" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
+<label x="48.26" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN6" class="0">
@@ -3577,9 +3578,9 @@ are associated with Timer1</text>
 <label x="149.86" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PWMH" gate="A" pin="4"/>
-<wire x1="58.42" y1="205.74" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
-<label x="48.26" y="205.74" size="1.778" layer="95"/>
+<pinref part="PWMH" gate="A" pin="5"/>
+<wire x1="58.42" y1="208.28" x2="53.34" y2="208.28" width="0.1524" layer="91"/>
+<label x="48.26" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN7" class="0">
@@ -3627,6 +3628,18 @@ are associated with Timer1</text>
 <wire x1="203.2" y1="213.36" x2="205.74" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="INC2B" class="0">
+<segment>
+<pinref part="COMMUNICATION" gate="A" pin="2"/>
+<wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
+<label x="43.18" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="322.58" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
+<label x="312.42" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -3638,7 +3651,6 @@ are associated with Timer1</text>
 <approved hash="113,1,58.6994,146.05,PWML,,,,,"/>
 <approved hash="113,1,58.6571,205.609,PWMH,,,,,"/>
 <approved hash="113,1,58.6994,173.99,COMMUNICATION,,,,,"/>
-<approved hash="113,1,190.822,219.71,USB,,,,,"/>
 <approved hash="113,1,258.403,232.605,J2,,,,,"/>
 <approved hash="113,1,258.403,214.825,J3,,,,,"/>
 <approved hash="113,1,281.263,214.825,J4,,,,,"/>

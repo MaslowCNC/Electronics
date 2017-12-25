@@ -1,7 +1,7 @@
 PCB BOM
 
 XH-Series Connectors: 455-2271-ND             3        J1-3
-Power Jack:           CP-002A-ND              1        J4
+Power Jack:           CP-202BH-ND             1        J4
 1x8 .1" headers:      732-5321-ND             4        J5-8
 2x2 .1" headers:      952-2119-ND             2        J9,10
 Flyback Diodes:       MRA4004T3GOSCT-ND       12       D1-12
