@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -55,13 +56,13 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -70,35 +71,35 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -124,21 +125,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
-<schematic>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
 <library name="pinhead">
 <packages>
@@ -2825,15 +2826,15 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="62.23" y="167.259" size="1.778" layer="91">20</text>
 <text x="62.23" y="164.719" size="1.778" layer="91">21</text>
 <text x="62.484" y="181.991" size="1.778" layer="91">14</text>
-<text x="327.66" y="195.58" size="1.778" layer="91">Motor 1</text>
-<text x="327.66" y="218.44" size="1.778" layer="91">Motor 2</text>
+<text x="337.82" y="215.9" size="1.778" layer="91">Motor 1</text>
+<text x="337.82" y="193.04" size="1.778" layer="91">Motor 2</text>
 <text x="185.42" y="193.04" size="6.4516" layer="91">H-Bridge</text>
 <text x="182.88" y="248.92" size="6.4516" layer="91">Power LED</text>
 <text x="83.82" y="149.86" size="6.4516" layer="91">Power Jack</text>
 <text x="63.5" y="256.54" size="6.4516" layer="91">Arduino IO</text>
 <text x="248.92" y="241.3" size="6.4516" layer="91">AUX Ports</text>
 <text x="309.88" y="241.3" size="6.4516" layer="91">Motor Con</text>
-<text x="355.6" y="195.58" size="1.778" layer="91">Motor 3</text>
+<text x="337.82" y="170.18" size="1.778" layer="91">Motor 3</text>
 <text x="-40.64" y="231.14" size="1.778" layer="91">Pins 3-4 on JP3 and JP4 are used to indicate the board revision number in binary. 
 The software can read these pins and detect the shield version.
 GND-GND-GND-5V -&gt; 0001
@@ -2877,12 +2878,12 @@ are associated with Timer1</text>
 <instance part="U$9" gate="G$1" x="266.7" y="167.64" rot="R90"/>
 <instance part="U$10" gate="G$1" x="266.7" y="147.32" rot="R90"/>
 <instance part="J1" gate="G$1" x="91.44" y="139.7"/>
-<instance part="U$1" gate="G$1" x="332.74" y="208.28"/>
-<instance part="U$12" gate="G$1" x="332.74" y="231.14"/>
-<instance part="J2" gate="J$1" x="254" y="231.14"/>
-<instance part="J3" gate="J$1" x="254" y="213.36"/>
-<instance part="J4" gate="J$1" x="276.86" y="213.36"/>
-<instance part="J5" gate="J$1" x="276.86" y="231.14"/>
+<instance part="U$1" gate="G$1" x="342.9" y="228.6"/>
+<instance part="U$12" gate="G$1" x="342.9" y="205.74"/>
+<instance part="J2" gate="J$1" x="276.86" y="213.36"/>
+<instance part="J3" gate="J$1" x="276.86" y="228.6"/>
+<instance part="J4" gate="J$1" x="254" y="228.6"/>
+<instance part="J5" gate="J$1" x="254" y="213.36"/>
 <instance part="IC2" gate="L298" x="175.26" y="101.6"/>
 <instance part="U$2" gate="G$1" x="228.6" y="109.22" rot="R90"/>
 <instance part="C3" gate="G$1" x="157.48" y="124.46" rot="R270"/>
@@ -2890,7 +2891,7 @@ are associated with Timer1</text>
 <instance part="U$11" gate="G$1" x="228.6" y="88.9" rot="R90"/>
 <instance part="U$13" gate="G$1" x="243.84" y="109.22" rot="R90"/>
 <instance part="U$14" gate="G$1" x="243.84" y="88.9" rot="R90"/>
-<instance part="U$20" gate="G$1" x="360.68" y="208.28"/>
+<instance part="U$20" gate="G$1" x="342.9" y="182.88"/>
 <instance part="J6" gate="J$1" x="254" y="198.12"/>
 <instance part="J7" gate="J$1" x="276.86" y="198.12"/>
 <instance part="COMMUNICATION1" gate="A" x="78.74" y="177.8" smashed="yes" rot="MR180">
@@ -2966,33 +2967,33 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="322.58" y1="208.28" x2="317.5" y2="208.28" width="0.1524" layer="91"/>
-<label x="312.42" y="208.28" size="1.778" layer="95"/>
+<wire x1="332.74" y1="228.6" x2="327.66" y2="228.6" width="0.1524" layer="91"/>
+<label x="322.58" y="228.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$4"/>
-<wire x1="322.58" y1="231.14" x2="317.5" y2="231.14" width="0.1524" layer="91"/>
-<label x="312.42" y="231.14" size="1.778" layer="95"/>
+<wire x1="332.74" y1="205.74" x2="327.66" y2="205.74" width="0.1524" layer="91"/>
+<label x="322.58" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J$1" pin="1"/>
+<wire x1="284.48" y1="226.06" x2="287.02" y2="226.06" width="0.1524" layer="91"/>
+<label x="287.02" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J$1" pin="1"/>
+<wire x1="261.62" y1="226.06" x2="264.16" y2="226.06" width="0.1524" layer="91"/>
+<label x="264.16" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J5" gate="J$1" pin="1"/>
 <wire x1="261.62" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
 <label x="264.16" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J$1" pin="1"/>
+<pinref part="J2" gate="J$1" pin="1"/>
 <wire x1="284.48" y1="210.82" x2="287.02" y2="210.82" width="0.1524" layer="91"/>
 <label x="287.02" y="210.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J5" gate="J$1" pin="1"/>
-<wire x1="284.48" y1="228.6" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
-<label x="287.02" y="228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="J$1" pin="1"/>
-<wire x1="261.62" y1="228.6" x2="264.16" y2="228.6" width="0.1524" layer="91"/>
-<label x="264.16" y="228.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -3035,8 +3036,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$4"/>
-<wire x1="350.52" y1="208.28" x2="345.44" y2="208.28" width="0.1524" layer="91"/>
-<label x="340.36" y="208.28" size="1.778" layer="95"/>
+<wire x1="332.74" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
+<label x="322.58" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="1"/>
@@ -3076,11 +3077,11 @@ are associated with Timer1</text>
 <wire x1="-33.02" y1="223.52" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INC1A" class="0">
+<net name="INC2B" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$6"/>
-<wire x1="322.58" y1="236.22" x2="317.5" y2="236.22" width="0.1524" layer="91"/>
-<label x="312.42" y="236.22" size="1.778" layer="95"/>
+<wire x1="332.74" y1="210.82" x2="327.66" y2="210.82" width="0.1524" layer="91"/>
+<label x="322.58" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="4"/>
@@ -3088,11 +3089,11 @@ are associated with Timer1</text>
 <label x="43.18" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INC1B" class="0">
+<net name="INC2A" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$5"/>
-<wire x1="322.58" y1="233.68" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
-<label x="312.42" y="233.68" size="1.778" layer="95"/>
+<wire x1="332.74" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
+<label x="322.58" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="3"/>
@@ -3100,11 +3101,11 @@ are associated with Timer1</text>
 <label x="43.18" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INC2A" class="0">
+<net name="INC1B" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$6"/>
-<wire x1="322.58" y1="213.36" x2="317.5" y2="213.36" width="0.1524" layer="91"/>
-<label x="312.42" y="213.36" size="1.778" layer="95"/>
+<wire x1="332.74" y1="233.68" x2="327.66" y2="233.68" width="0.1524" layer="91"/>
+<label x="322.58" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="1"/>
@@ -3112,11 +3113,11 @@ are associated with Timer1</text>
 <label x="43.18" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INC3A" class="0">
+<net name="INC3B" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$6"/>
-<wire x1="350.52" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91"/>
-<label x="340.36" y="213.36" size="1.778" layer="95"/>
+<wire x1="332.74" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
+<label x="322.58" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWML" gate="A" pin="4"/>
@@ -3124,11 +3125,11 @@ are associated with Timer1</text>
 <label x="43.18" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INC3B" class="0">
+<net name="INC3A" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$5"/>
-<wire x1="350.52" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
-<label x="340.36" y="210.82" size="1.778" layer="95"/>
+<wire x1="332.74" y1="185.42" x2="327.66" y2="185.42" width="0.1524" layer="91"/>
+<label x="322.58" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWML" gate="A" pin="3"/>
@@ -3152,33 +3153,33 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="322.58" y1="205.74" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
-<label x="312.42" y="205.74" size="1.778" layer="95"/>
+<wire x1="332.74" y1="226.06" x2="327.66" y2="226.06" width="0.1524" layer="91"/>
+<label x="322.58" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$3"/>
-<wire x1="322.58" y1="228.6" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
-<label x="312.42" y="228.6" size="1.778" layer="95"/>
+<wire x1="332.74" y1="203.2" x2="327.66" y2="203.2" width="0.1524" layer="91"/>
+<label x="322.58" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="2"/>
-<wire x1="261.62" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
-<label x="264.16" y="231.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="J$1" pin="2"/>
-<wire x1="261.62" y1="213.36" x2="264.16" y2="213.36" width="0.1524" layer="91"/>
-<label x="264.16" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="J$1" pin="2"/>
 <wire x1="284.48" y1="213.36" x2="287.02" y2="213.36" width="0.1524" layer="91"/>
 <label x="287.02" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="J3" gate="J$1" pin="2"/>
+<wire x1="284.48" y1="228.6" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
+<label x="287.02" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J$1" pin="2"/>
+<wire x1="261.62" y1="228.6" x2="264.16" y2="228.6" width="0.1524" layer="91"/>
+<label x="264.16" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="J5" gate="J$1" pin="2"/>
-<wire x1="284.48" y1="231.14" x2="287.02" y2="231.14" width="0.1524" layer="91"/>
-<label x="287.02" y="231.14" size="1.778" layer="95"/>
+<wire x1="261.62" y1="213.36" x2="264.16" y2="213.36" width="0.1524" layer="91"/>
+<label x="264.16" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="L298" pin="VCC"/>
@@ -3190,8 +3191,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$3"/>
-<wire x1="350.52" y1="205.74" x2="345.44" y2="205.74" width="0.1524" layer="91"/>
-<label x="340.36" y="205.74" size="1.778" layer="95"/>
+<wire x1="332.74" y1="180.34" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
+<label x="322.58" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="2"/>
@@ -3369,8 +3370,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="322.58" y1="200.66" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
-<label x="312.42" y="200.66" size="1.778" layer="95"/>
+<wire x1="332.74" y1="220.98" x2="327.66" y2="220.98" width="0.1524" layer="91"/>
+<label x="322.58" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M1-" class="0">
@@ -3390,8 +3391,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="322.58" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
-<label x="312.42" y="203.2" size="1.778" layer="95"/>
+<wire x1="332.74" y1="223.52" x2="327.66" y2="223.52" width="0.1524" layer="91"/>
+<label x="322.58" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M2+" class="0">
@@ -3411,8 +3412,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$2"/>
-<wire x1="322.58" y1="226.06" x2="317.5" y2="226.06" width="0.1524" layer="91"/>
-<label x="312.42" y="226.06" size="1.778" layer="95"/>
+<wire x1="332.74" y1="200.66" x2="327.66" y2="200.66" width="0.1524" layer="91"/>
+<label x="322.58" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M2-" class="0">
@@ -3432,15 +3433,15 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
-<wire x1="322.58" y1="223.52" x2="317.5" y2="223.52" width="0.1524" layer="91"/>
-<label x="312.42" y="223.52" size="1.778" layer="95"/>
+<wire x1="332.74" y1="198.12" x2="327.66" y2="198.12" width="0.1524" layer="91"/>
+<label x="322.58" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX3" class="0">
+<net name="AUX2" class="0">
 <segment>
 <pinref part="J3" gate="J$1" pin="3"/>
-<wire x1="261.62" y1="215.9" x2="264.16" y2="215.9" width="0.1524" layer="91"/>
-<label x="264.16" y="215.9" size="1.778" layer="95"/>
+<wire x1="284.48" y1="231.14" x2="287.02" y2="231.14" width="0.1524" layer="91"/>
+<label x="287.02" y="231.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="6"/>
@@ -3448,11 +3449,11 @@ are associated with Timer1</text>
 <label x="43.18" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX1" class="0">
+<net name="AUX4" class="0">
 <segment>
 <pinref part="J2" gate="J$1" pin="3"/>
-<wire x1="261.62" y1="233.68" x2="264.16" y2="233.68" width="0.1524" layer="91"/>
-<label x="264.16" y="233.68" size="1.778" layer="95"/>
+<wire x1="284.48" y1="215.9" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
+<label x="287.02" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="8"/>
@@ -3460,11 +3461,11 @@ are associated with Timer1</text>
 <label x="43.18" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX2" class="0">
+<net name="AUX3" class="0">
 <segment>
 <pinref part="J5" gate="J$1" pin="3"/>
-<wire x1="284.48" y1="233.68" x2="287.02" y2="233.68" width="0.1524" layer="91"/>
-<label x="287.02" y="233.68" size="1.778" layer="95"/>
+<wire x1="261.62" y1="215.9" x2="264.16" y2="215.9" width="0.1524" layer="91"/>
+<label x="264.16" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="7"/>
@@ -3472,11 +3473,11 @@ are associated with Timer1</text>
 <label x="43.18" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX4" class="0">
+<net name="AUX1" class="0">
 <segment>
 <pinref part="J4" gate="J$1" pin="3"/>
-<wire x1="284.48" y1="215.9" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
-<label x="287.02" y="215.9" size="1.778" layer="95"/>
+<wire x1="261.62" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
+<label x="264.16" y="231.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="5"/>
@@ -3501,8 +3502,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$1"/>
-<wire x1="350.52" y1="200.66" x2="345.44" y2="200.66" width="0.1524" layer="91"/>
-<label x="340.36" y="200.66" size="1.778" layer="95"/>
+<wire x1="332.74" y1="175.26" x2="327.66" y2="175.26" width="0.1524" layer="91"/>
+<label x="322.58" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M3-" class="0">
@@ -3522,8 +3523,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="P$2"/>
-<wire x1="350.52" y1="203.2" x2="345.44" y2="203.2" width="0.1524" layer="91"/>
-<label x="340.36" y="203.2" size="1.778" layer="95"/>
+<wire x1="332.74" y1="177.8" x2="327.66" y2="177.8" width="0.1524" layer="91"/>
+<label x="322.58" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M4+" class="0">
@@ -3628,7 +3629,7 @@ are associated with Timer1</text>
 <wire x1="203.2" y1="213.36" x2="205.74" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INC2B" class="0">
+<net name="INC1A" class="0">
 <segment>
 <pinref part="COMMUNICATION" gate="A" pin="2"/>
 <wire x1="58.42" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
@@ -3636,8 +3637,8 @@ are associated with Timer1</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$5"/>
-<wire x1="322.58" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
-<label x="312.42" y="210.82" size="1.778" layer="95"/>
+<wire x1="332.74" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
+<label x="322.58" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
