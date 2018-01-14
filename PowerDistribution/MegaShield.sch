@@ -2798,7 +2798,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="COMMUNICATION1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-2X2" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X2" device=""/>
-<part name="R2" library="eagle-ltspice" deviceset="R" device="" value="330"/>
+<part name="R2" library="eagle-ltspice" deviceset="R" device="" value="1K"/>
 <part name="12VPOWER" library="eagle-ltspice" deviceset="LED_E" device=""/>
 </parts>
 <sheets>
@@ -2900,7 +2900,10 @@ are associated with Timer1</text>
 <instance part="JP3" gate="A" x="-12.7" y="200.66" rot="R90"/>
 <instance part="JP4" gate="A" x="-33.02" y="220.98" rot="R90"/>
 <instance part="R2" gate="G$1" x="210.82" y="213.36"/>
-<instance part="12VPOWER" gate="G$1" x="200.66" y="213.36" rot="R270"/>
+<instance part="12VPOWER" gate="G$1" x="200.66" y="213.36" smashed="yes" rot="R270">
+<attribute name="NAME" x="191.008" y="209.804" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.088" y="207.645" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
