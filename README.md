@@ -1,4 +1,7 @@
-Maslow PCBs
+# Maslow PCBs
+
+The printed circuit board which powers the Maslow CNC Machine
+
 ======================
 
 
