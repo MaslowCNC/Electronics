@@ -7,7 +7,7 @@ The printed circuit board which powers the Maslow CNC Machine
 
 Layout
 
-![Layout](https://github.com/MaslowCNC/Electronics/blob/master/PowerDistributionBoardLayout.PNG)
+![Layout](https://raw.githubusercontent.com/MaslowCNC/Electronics/master/PowerDistributionBoardLayout.PNG)
 
 Schematic
 
