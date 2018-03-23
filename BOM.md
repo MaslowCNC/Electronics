@@ -4,8 +4,8 @@ The complete Maslow PCB can be ordered from the Maslow store [here](http://www.m
 
 All of the part numbers below are digikey parts unless otherwise stated.
 
-| Part               | Part #          | Number Needed  |   # In Schematic |
-| ------------------ |:---------------:|:--------------:|:-----------------|
+| Part               | Part #              | Number Needed  |   # In Schematic |
+| ------------------ |:-------------------:|:--------------:|:-----------------|
 |XH-Series Connectors|     455-2271-ND     |      3         |      J1-3        |
 | Power Jack         |     CP-202BH-ND     |      1         |      J4          |
 | 1x8 .1" headers    |     732-5321-ND     |      4         |      J5-8        |
