@@ -11,4 +11,4 @@ Layout
 
 Schematic
 
-![Schematic](https://github.com/MaslowCNC/Electronics/blob/master/PowerDistributionBoardSchematic.PNG)
+![Schematic](https://raw.githubusercontent.com/MaslowCNC/Electronics/master/PowerDistributionBoardSchematic.PNG)
