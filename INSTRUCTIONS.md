@@ -1,7 +1,3 @@
-**[MaslowCNC](https://github.com/MaslowCNC)** Wiki: **[Electronics](https://github.com/MaslowCNC/Electronics/wiki)** | [Firmware](https://github.com/MaslowCNC/Firmware/wiki)
-| [Mechanics](https://github.com/MaslowCNC/Mechanics/wiki) | [Software](https://github.com/MaslowCNC/GroundControl/wiki)| [Community Garden](https://github.com/MaslowCNC/CommunityGarden/wiki)
-
-
 # Maslow Electronics Setup
 
 We've done our best to keep the electronics for Maslow as simple as possible.
