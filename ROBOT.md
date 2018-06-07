@@ -1,3 +1,5 @@
-ModerationLevel = communityManaged
-
- Facilitator: barboursmith
+{
+    "ModerationLevel": "communityManaged",
+    "Facilitator": "barboursmith",
+    "Category": "maslow" 
+}
