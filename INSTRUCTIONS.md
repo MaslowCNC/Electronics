@@ -34,4 +34,4 @@ Plug the USB cord into the Arduino and into your computer. Note that the "USB" l
 ![Attach USB](https://raw.githubusercontent.com/MaslowCNC/Electronics/master/Documentation/Attach%20USB.jpg)
 
 ### Step 7: Proceed
-You have finished setting up the Maslow electronics system. Proceed to the [next step](https://github.com/MaslowCNC/Firmware/wiki/Firmware-Setup) and install the open source Maslow Firmware on your Arduino.
+You have finished setting up the Maslow electronics system. Proceed to the [next step](http://maslowcommunitygarden.org/Firmware.html?instructions=true) and install the open source Maslow Firmware on your Arduino.
