@@ -1,4 +1,4 @@
-# Maslow PCBs
+# Maslow Electronics
 
 The printed circuit board which powers the Maslow CNC Machine
 
