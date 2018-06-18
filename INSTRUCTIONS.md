@@ -23,6 +23,7 @@ Attach the Arduino shield onto the Keystudio Mega 2560 microcontroller. Make sur
 Attach the motors to the motor controller shield. **Note that the motors connect to ports 1 and 3 not 1 and 2**. This is to better distribute the motor power draw across both motor driver chips.  Port 3 controls the left motor and Port 1 the right motor (as viewed when facing the MaslowCNC).
 The cables have two sides, so make sure that when plugged in the Arduino shield, the yellow wire is at the bottom in both ports as seen in the following photo.
 When using the optional Z axis, this motor is connected to port 2.
+
 ![Attach Motors](https://raw.githubusercontent.com/MaslowCNC/Electronics/master/Documentation/Attach%20Motors.jpg)
 
 ### Step 5: Connect The Power Supply
