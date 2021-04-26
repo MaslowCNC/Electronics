@@ -1,0 +1,241 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MegaShield-eagle-import_1.0UF-25V-+80_-20(0805)"
+#
+DEF MegaShield-eagle-import_1.0UF-25V-+80_-20(0805)" C 0 40 Y Y 1 L N
+F0 "C" 60 115 59 H V L BNN
+F1 "MegaShield-eagle-import_1.0UF-25V-+80_-20(0805)\"" 60 -85 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_C
+#
+DEF MegaShield-eagle-import_C C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "MegaShield-eagle-import_C" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 0 -200 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_DCJ0202
+#
+DEF MegaShield-eagle-import_DCJ0202 J 0 40 Y Y 1 L N
+F0 "J" -100 150 59 H V L BNN
+F1 "MegaShield-eagle-import_DCJ0202" -100 -250 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -130 -100 -70 50 1 0 0 F
+P 2 1 0 0 -100 100 -100 50 N
+P 2 1 0 0 0 -40 -30 -100 N
+P 2 1 0 0 30 -100 0 -40 N
+P 2 1 0 0 100 -100 30 -100 N
+P 2 1 0 0 100 0 100 -100 N
+P 2 1 0 0 200 -100 100 -100 N
+P 2 1 0 0 200 0 100 0 N
+P 2 1 0 0 200 100 -100 100 N
+P 3 1 0 0 100 -100 80 -50 120 -50 F
+X 1 1 300 100 100 L 50 0 1 0 P
+X 2 2 300 0 100 L 50 0 1 0 P
+X 3 3 300 -100 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_JST-PH-6
+#
+DEF MegaShield-eagle-import_JST-PH-6 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "MegaShield-eagle-import_JST-PH-6" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 -400 -200 300 N
+P 2 1 0 0 -200 300 100 300 N
+P 2 1 0 0 100 -400 -200 -400 N
+P 2 1 0 0 100 300 100 -400 N
+X P$1 P$1 -400 -300 200 R 50 50 1 0 B
+X P$2 P$2 -400 -200 200 R 50 50 1 0 B
+X P$3 P$3 -400 -100 200 R 50 50 1 0 B
+X P$4 P$4 -400 0 200 R 50 50 1 0 B
+X P$5 P$5 -400 100 200 R 50 50 1 0 B
+X P$6 P$6 -400 200 200 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_L298SO
+#
+DEF MegaShield-eagle-import_L298SO IC 0 40 Y Y 1 L N
+F0 "IC" -500 750 59 H V L BNN
+F1 "MegaShield-eagle-import_L298SO" -800 -400 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -600 -500 700 N
+P 2 1 0 0 -500 700 500 700 N
+P 2 1 0 0 500 -600 -500 -600 N
+P 2 1 0 0 500 700 500 -600 N
+X GND 1 -600 -400 100 R 50 50 1 0 W
+X VCC 12 -600 600 100 R 50 50 1 0 W
+X INPUT3 13 -600 -100 100 R 50 50 1 0 I
+X ENABLE_B 14 -600 300 100 R 50 50 1 0 I
+X INPUT4 15 -600 -200 100 R 50 50 1 0 I
+X OUT3 16 600 -100 100 L 50 50 1 0 O
+X OUT4 17 600 -200 100 L 50 50 1 0 O
+X SEN_B 19 600 300 100 L 50 50 1 0 I
+X SEN_A 2 600 400 100 L 50 50 1 0 I
+X OUT1 4 600 100 100 L 50 50 1 0 O
+X OUT2 5 600 0 100 L 50 50 1 0 O
+X VS 6 600 600 100 L 50 50 1 0 W
+X INPUT1 7 -600 100 100 R 50 50 1 0 I
+X ENABLE_A 8 -600 400 100 R 50 50 1 0 I
+X INPUT2 9 -600 0 100 R 50 50 1 0 I
+X HEAT HEAT 700 -400 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_LED_E
+#
+DEF MegaShield-eagle-import_LED_E LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "MegaShield-eagle-import_LED_E" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 0 -200 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_M03LOCK
+#
+DEF MegaShield-eagle-import_M03LOCK J 0 40 Y Y 1 L N
+F0 "J" -100 230 59 H V L BNN
+F1 "MegaShield-eagle-import_M03LOCK" -100 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 200 -100 -200 N
+P 2 1 0 0 -100 200 150 200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 150 -200 -100 -200 N
+P 2 1 0 0 150 -200 150 200 N
+X 1 1 300 -100 200 L 50 0 1 0 P
+X 2 2 300 0 200 L 50 0 1 0 P
+X 3 3 300 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_MRA4004
+#
+DEF MegaShield-eagle-import_MRA4004 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "MegaShield-eagle-import_MRA4004" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 -100 0 100 N
+P 2 1 0 0 0 100 200 0 N
+P 2 1 0 0 200 0 0 -100 N
+P 2 1 0 0 200 100 200 -100 N
+X A A -200 0 200 R 50 50 1 0 B
+X C C 400 0 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_PINHD-1X8
+#
+DEF MegaShield-eagle-import_PINHD-1X8 JP 0 40 Y Y 1 L N
+F0 "JP" -250 525 59 H V L BNN
+F1 "MegaShield-eagle-import_PINHD-1X8" -250 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -400 50 -400 N
+P 2 1 0 0 -250 500 -250 -400 N
+P 2 1 0 0 50 -400 50 500 N
+P 2 1 0 0 50 500 -250 500 N
+X 1 1 -100 400 100 R 50 0 1 0 P I
+X 2 2 -100 300 100 R 50 0 1 0 P I
+X 3 3 -100 200 100 R 50 0 1 0 P I
+X 4 4 -100 100 100 R 50 0 1 0 P I
+X 5 5 -100 0 100 R 50 0 1 0 P I
+X 6 6 -100 -100 100 R 50 0 1 0 P I
+X 7 7 -100 -200 100 R 50 0 1 0 P I
+X 8 8 -100 -300 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_PINHD-2X2
+#
+DEF MegaShield-eagle-import_PINHD-2X2 JP 0 40 Y Y 1 L N
+F0 "JP" -350 225 59 H V L BNN
+F1 "MegaShield-eagle-import_PINHD-2X2" -350 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -350 -100 250 -100 N
+P 2 1 0 0 -350 200 -350 -100 N
+P 2 1 0 0 250 -100 250 200 N
+P 2 1 0 0 250 200 -350 200 N
+X 1 1 -200 100 100 R 50 0 1 0 P I
+X 2 2 100 100 100 L 50 0 1 0 P I
+X 3 3 -200 0 100 R 50 0 1 0 P I
+X 4 4 100 0 100 L 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# MegaShield-eagle-import_R
+#
+DEF MegaShield-eagle-import_R R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "MegaShield-eagle-import_R" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -200 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 200 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
