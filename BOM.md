@@ -1,5 +1,3 @@
-###The complete Maslow PCB can be ordered from the Maslow store [here](http://www.maslowcnc.com/store/arduino-shield)
-
 
 
 # PCB BOM
