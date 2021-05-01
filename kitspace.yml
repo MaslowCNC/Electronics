@@ -1,4 +1,4 @@
-gerbers: TODO
+gerbers: Electronics/PowerDistribution/Gerber
 bom: 1-click-bom.csv
 eda:
   type: eagle
@@ -7,4 +7,4 @@ eda:
 color: green
 readme: README.md
 site: https://www.maslowcnc.com/
-summary: This is the main control board for the Maslow CNC router. It is designed to mate with an Arduino Mega 2560
+summary: This is the main control board for the Maslow CNC router. It is designed to mate with an Arduino Mega 2560.
