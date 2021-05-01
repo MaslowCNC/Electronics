@@ -1,4 +1,4 @@
-gerbers: Electronics/PowerDistribution/Gerber
+gerbers: PowerDistribution/Gerber
 bom: 1-click-bom.csv
 eda:
   type: eagle
