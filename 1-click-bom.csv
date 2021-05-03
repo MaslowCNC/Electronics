@@ -1,0 +1,13 @@
+References,Qty,Description,DigiKey,Mouser
+J1-3,3,XH-Series Connectors,455-2271-ND,
+J4,1,Power Jack,CP-202BH-ND,
+J5-8,4,"1x8 .1"" headers",732-5321-ND,
+"J9,10",2,"2x2 .1"" headers",952-2119-ND,
+D1-12,12,Flyback Diodes,MRA4004T3GOSCT-N,
+C1-4,4,.1uF Filter Caps,311-1361-1-ND,
+"C5,6",2,1uF Filter Caps,445-5146-1-ND,
+"IC-1,2",2,H-Bridge,497-3624-1-ND,
+LED 1-2,2,Indicator LED,475-1410-1-ND,
+R1,1,Current Limiting R1,RMCF0805JT270RCT-ND,
+R2,1,Current Limiting R2,541-4162-1-ND,
+N/A,2,23x23mm heatsink,,Mouser-532-374124B35G
